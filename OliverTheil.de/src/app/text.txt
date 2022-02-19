@@ -1,0 +1,16 @@
+Servus!
+Ich bin Oliver Theil.
+Ein Front end Entwickler und komme aus Bayern, Deutschland.
+
+Seit geraumer Zeit code ich verschiedenste Projekte und habe durch den Einstieg in die Softwareentwicklung endlich Das gefunden, 
+von dem ich vorher nur träumen konnte: Ein Beruf der mir wirklich Spaß macht, sich richtig anfühlt und zu mir passt. 
+
+Nach einem einfachen Youtube-Tutorial der Developer Akademie, wusste ich bereits nach kurzer Zeit das das hier nicht einfach nur 
+ein Job ist, den ich ausüben würde um Geld zu verdienen. Es fühlte sich nach so viel mehr an. Es war als wäre
+es immer genau das gewesen was ich schon immer tun wollte: Softwareentwicklung. Bereits nach einer Woche eigener Übungen mit 
+Youtube und Büchern musste es aber einfach mehr sein. Ich versuchte mein Glück und wurde in der Developer Akademie aufgenommen und begann 
+meine Weiterbildung als Front End Developer. Und damit gegann für mich auch ein zweites Leben: Nach meiner momentanen Arbeit hieß es nur noch lernen 
+und besser werden. Gleichzeitig wurde mir klar, wie blind ich durch mein damaliges Leben lief. Es gab kein Fortschritt, keine Entwicklung. 
+Ein bloßes Arbeiten, nach Hause kommen, Wiederholung, Stillstand. Aber mit dem Einstieg in die Softwareentwicklung gab es jeden Tag einen neuen Schritt
+weiter nach oben. Dennoch: Softwareentwicklung war, ist und wird nicht jeden Tag einfach sein. Auch hier gibt es viele Rückschläge. Aber aus jedem Schritt 
+zurück, lernt man wie es zwei Schritte vorwärts geht. 
