@@ -1,1 +1,85 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    background-color: black;
+
+    * {
+    font-family: 'Sen', sans-serif;
+    color: white;
+    }
+}
+// Colors
+
+.black-1-Bg {
+    background-color: black;
+}
+
+.black-2-Bg {
+    background-color: #181823;
+}
+
+.purple-Bg {
+    background-color: #5221E6;
+}
+
+
+
+
+// Fonts
+// Bold
+
+h1 {
+    font-size: 76px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.h4_1 {
+    font-size: 18px;
+}
+
+.h4_2 {
+    font-size: 16px;
+}
+
+.overline {
+    font-size: 16px;
+}
+
+button {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+button,
+.h4_1,
+.h4_2 {
+    font-weight: 700;
+}
+
+//Regular
+
+.reg117 {
+    font-size: 117px;
+}
+
+.reg18 {
+    font-size: 18px;
+}
+
+.reg16 {
+    font-size: 16px;
+}
+
+.reg117,
+.reg18,
+.reg16 {
+    font-weight: 400;
+}
