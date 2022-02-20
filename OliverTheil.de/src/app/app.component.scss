@@ -1,7 +1,140 @@
+//Head
+
 .headSection {
+    width: 100%;
+    height: 100vh;
+}
+
+.headSectionBox {
     position: absolute;
-    width: 900px;
+    width: 1200px;
     height: 900px;
-    left: 540px;
+    right: 0px;
     top: 0px;
+}
+.headProfileImg {
+    position: absolute;
+    width: 750px;
+    height: 650px;
+    left: 0px;
+    top: 125px;
+    background-image: url('/assets/img/otterExampleImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headSection-Heading {
+    font-size: 65px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 720px;
+    height: 263px;
+    left: 661px;
+    top: 273px;
+}
+
+.headSection-Subheading {
+    position: absolute;
+    width: 720px;
+    height: 54px;
+    left: 667px;
+    top: 566px;
+
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+//About Me
+
+.aboutMeSection {
+    position: absolute;
+    top: 100vh;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.aboutMe-Heading {
+    position: absolute;
+    width: 280px;
+    height: 66px;
+    left: 72px;
+    top: 120px;
+
+
+    color: black;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutMeImg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 720px;
+    height: 600px;
+}
+
+.aboutMe-Subheading {
+    position: absolute;
+    width: 576px;
+    height: 240px;
+    left: 72px;
+    top: 210px;
+
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.aboutMeMore {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 72px;
+    top: 451px;
+
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+//skillset
+
+.skillset {
+    position: absolute;
+    top: 160vh;
+    width: 100%;
+    height: 650px;
+}
+
+@media (max-width: 1440px) {
+    .headSectionBox {
+        left: auto;
+        right: 0px;
+    }
+
+    .headSection-Heading,
+    .headSection-Subheading {
+        left: auto;
+        right: 90px;
+    }
+}
+
+@media (max-width: 820px) {
+
 }
