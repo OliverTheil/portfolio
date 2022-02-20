@@ -110,6 +110,11 @@
     line-height: 150%;
     text-decoration: underline;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.aboutMeMore:hover {
+    transform: scale(1.4);
 }
 
 //skillset
@@ -118,7 +123,7 @@
     position: absolute;
     top: 160vh;
     width: 100%;
-    height: 65vh;
+    height: 68vh;
 }
 
 .skillset-Heading {
@@ -154,17 +159,12 @@
 .icon {
     object-fit: contain;
     height: 32px;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
 }
-
-.icon:hover {
-    transform: scale(1.4);
-}
-
 .iconDescription {
-    width: 177px;
+    width: 150px;
     height: 29px;
+    display: flex;
+    justify-content: center;
     font-family: Sen;
     font-style: normal;
     font-weight: bold;
@@ -174,9 +174,18 @@
 
 .skillBox {
     position: absolute;
-    width: 120px;
-    height: 80px;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 140px;
+    height: 100px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.skillBox:hover {
+    transform: scale(1.4);
 }
 
 @media (max-width: 1440px) {
