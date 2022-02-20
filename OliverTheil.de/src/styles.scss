@@ -1,4 +1,7 @@
 body {
+    width: 100%;
+    max-width: 1920px;
+    padding: 40px, 72px;
     margin: 0;
     background-color: black;
 
@@ -6,6 +9,10 @@ body {
     font-family: 'Sen', sans-serif;
     color: white;
     }
+}
+
+p {
+    margin: 0;
 }
 // Colors
 
@@ -19,6 +26,10 @@ body {
 
 .purple-Bg {
     background-color: #5221E6;
+}
+
+.white-Bg {
+    background-color: #e6e6e6;
 }
 
 
@@ -82,4 +93,22 @@ button,
 .reg18,
 .reg16 {
     font-weight: 400;
+}
+
+.black-Font {
+    color: black;
+}
+
+//z-index
+
+.z1 {
+    z-index: 1;
+}
+
+.z2 {
+    z-index: 2;
+}
+
+.z3 {
+    z-index: 3;
 }
