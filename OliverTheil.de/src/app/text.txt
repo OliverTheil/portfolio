@@ -1,14 +1,13 @@
 Servus!
 Ich bin Oliver Theil.
-Ein Front end Entwickler und komme aus Bayern, Deutschland.
+Ein Front end Developer aus Bayern, Deutschland.
 
 Seit geraumer Zeit code ich verschiedenste Projekte und habe durch den Einstieg in die Softwareentwicklung Endlich Das gefunden, 
-von dem ich vorher nur träumen konnte: Ein Beruf der mir wirklich Spaß macht, sich richtig anfühlt und zu mir passt. 
+von dem man vorher nur träumen konnte: Ein Beruf der mir wirklich Spaß macht, sich richtig anfühlt und zu mir passt. 
 
 Nach einem einfachen Youtube-Tutorial der Developer Akademie, wusste ich bereits nach kurzer Zeit das das hier nicht einfach nur 
-ein Job ist, den ich ausüben werde um Geld zu verdienen. Es fühlte sich nach so viel mehr an. Es war als wäre
-es immer genau das gewesen was ich schon immer tun wollte: Softwareentwicklung. Bereits nach einer Woche eigener Übungen mit 
-Youtube und Büchern musste es aber einfach mehr sein. Ich versuchte mein Glück und wurde in der Developer Akademie aufgenommen und begann 
+ein Job ist. Es fühlte sich nach so viel mehr an. Es war als wäre
+es immer genau das gewesen was ich schon immer tun wollte: Softwareentwicklung. Ich versuchte mein Glück, wurde in der Developer Akademie aufgenommen und begann 
 meine Weiterbildung als Front End Developer. Und damit gegann für mich auch ein zweites Leben: Nach meiner momentanen Arbeit hieß es nur noch lernen 
 und besser werden. Gleichzeitig wurde mir klar, wie blind ich durch mein damaliges Leben lief. Es gab kein Fortschritt, keine Entwicklung. 
 Ein bloßes Arbeiten, nach Hause kommen, Wiederholung, Stillstand. Aber mit dem Einstieg in die Softwareentwicklung gab es jeden Tag einen neuen Schritt
@@ -17,10 +16,10 @@ Aber aus jedem Schritt zurück, lernt man wie es zwei Schritte vorwärts geht. C
 
 Mein Start:
 
-Als ich mit 10 Jahren meinen ersten Computer bekommen habe, hatte ich nur eines: Angst. Ich wusste überhaupt nicht wie dieses Ding funktioniert und 
-war froh, wenn eines der Spiele die ich kostenlos aus den Computer-Zeitschriften bekommen habe, auch installieren konnte. Über Monate und Jahre hinweg habe 
-ich mir Wissen angeeignet und mit der Zeit wurde ich immer sicherer. Der Computer wurde mein zweites Zuhause und ich verlor mich in unzähligen Welten. 
-Mit den Jahren interessierte mich vor allem Computer Hardware und ich begann mit 16 Jahren meinen ersten Computer selbst zu bauen. Es dauerte Stunden und 
+Mit 10 Jahren bekam ich meinen ersten Computer und hatte nur eines: Angst. Ich wusste überhaupt nicht wie dieses Ding funktioniert und 
+war froh, wenn eines der Spiele aus den Computer-Zeitschriften startete. Über Monate und Jahre hinweg habe 
+ich mir Wissen angeeignet und wurde mit der Zeit immer sicherer. Der Computer wurde mein zweites Zuhause und ein Rückzugsort in unzähligen Welten. 
+Mit den Jahren interessierte mich vor allem Computer Hardware und begann mit 16 Jahren meinen ersten Computer selbst zu bauen. Es dauerte Stunden und 
 funktionierte natürlich nicht. Aber nach weiteren Stunden Arbeit und Fehlersuche startete er. Damit begann für mich ein weiterer Schritt in die Welt der 
 Einsen und Nullen. Über die Jahre baute ich unzählige Systeme und sammelte Erfahrung in Softwareoptimierung, Übertakten und Spannungsregulierung bei Computern. 
 
@@ -36,7 +35,8 @@ vergleichen: Die Zeit vergeht wie im Fluge und ein kleiner Fehler kann Stunden A
 
 
 Meine bisherigen Projekte und Erfahrungen:
-Egal welches Projekt ich gecodet habe, 
+Egal welches Projekt ich code, Leidenschaft und Spaß ist immer an erster Stelle. Ob beim Start von einfachen Seiten mit HTML und CSS oder der 
+Einbindung von JavaScript und APIs. 
 
 
 
