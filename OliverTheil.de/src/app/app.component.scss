@@ -28,11 +28,13 @@
     line-height: 78px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     position: absolute;
     width: 720px;
     height: 263px;
     left: 661px;
     top: 273px;
+    text-align: right;
 }
 
 .headSection-Subheading {
@@ -47,6 +49,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
+    text-align: justify;
 }
 
 //About Me
@@ -94,6 +97,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
+    text-align: justify;
 }
 
 .aboutMeMore {
@@ -123,7 +127,7 @@
     position: absolute;
     top: 160vh;
     width: 100%;
-    height: 68vh;
+    height: 70vh;
 }
 
 .skillset-Heading {
@@ -154,6 +158,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
+    text-align: justify;
 }
 
 .icon {
@@ -179,7 +184,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 140px;
-    height: 100px;
+    height: 60px;
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
@@ -187,6 +192,58 @@
 .skillBox:hover {
     transform: scale(1.4);
 }
+
+//myPath
+
+.myPath {
+    position: absolute;
+    top: 230vh;
+    height: 60vh;
+    width: 100%;
+}
+
+.myPath-Heading {
+    position: absolute;
+    width: 580px;
+    height: 66px;
+    right: 72px;
+    top: 120px;
+    
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.myPath-Subheading {
+    position: absolute;
+    width: 576px;
+    height: 240px;
+    right: 72px;
+    top: 210px;
+
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.myPathImg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 750px;
+    height: 60vh;
+}
+
+
+
 
 @media (max-width: 1440px) {
     .headSectionBox {
