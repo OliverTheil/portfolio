@@ -81,6 +81,7 @@
         left: 16px;
         right: auto;
         text-align: left;
+        
     }
 
     @media(max-width: 400px) {
@@ -91,7 +92,7 @@
 .headSection-Subheading {
     position: absolute;
     width: 720px;
-    height: 54px;
+    height: fit-content;
     right: 72px;
     top: 566px;
 
@@ -106,7 +107,6 @@
         width: 90%;
         left: 16px;
         right: auto;
-        height: 100px;
         top: 828px;
         font-size: 18px;
         line-height: 150%;
@@ -144,6 +144,8 @@
     @media(max-width: 900px) {
         font-size: 32px;
         line-height: 38px;
+        height: 32px;
+
         left: 16px;
         top: 40px;
         width: 160px;
@@ -221,6 +223,10 @@
     top: 160vh;
     width: 100%;
     height: 70vh;
+
+    @media(max-width: 1300px) {
+        height: 140vh;
+    }
 }
 
 .skillset-Heading {
@@ -241,6 +247,9 @@
     @media(max-width: 900px) {
         top: 40px;
         left: 16px;
+        font-size: 32px;
+        line-height: 38px;
+        height: 32px;
     }
 }
 
@@ -258,18 +267,27 @@
     line-height: 150%;
     text-align: justify;
 
+    @media(max-width: 1300px) {
+        width: 90%;
+        height: fit-content;
+    }
+
     @media(max-width: 900px) {
         left: 16px;
-        width: 90%;
+        top: 112px;
     }
 }
 
 .icon {
     object-fit: contain;
     height: 32px;
+
+    @media(max-width: 900px) {
+        height: 64px;
+    }
 }
 .iconDescription {
-    width: 150px;
+    width: 140px;
     height: 29px;
     display: flex;
     justify-content: center;
@@ -278,15 +296,63 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
+
+    @media(max-width: 900px) {
+        display: none;
+    }
+}
+
+.skillsContainer {
+    top: 100px;
+    right: 72px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 600px;
+    height: 600px;
+
+    @media(max-width: 1300px) {
+        top: 440px;
+        height: fit-content;
+        width: fit-content;
+        max-width: 100%;
+        left: 52px;
+        justify-content: flex-start;
+    }
+
+    @media(max-width: 1000px) {
+        top: 480px;
+    }
+
+    @media(max-width: 900px) {
+        left: 0px;
+        top: 520px;
+    }
+
+    @media(max-width: 660px) {
+        top: 560px;
+    }
+
+    @media(max-width: 450px) {
+        justify-content: space-evenly;
+        top: 640px;
+    }
+
+    @media(max-width: 400px) {
+        top: 680px;
+    }
+
 }
 
 .skillBox {
-    position: absolute;
     display: flex;
+    margin: 20px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 140px;
+    width: 130px;
     height: 60px;
     cursor: pointer;
     transition: all .125s ease-in-out;
@@ -294,111 +360,12 @@
     &:hover {
         transform: scale(1.2);
     }
-}
-
-.htmlcss {
-    top: 120px; 
-    right: 472px;
-
-    @media(max-width: 1300px) {
-        top: auto;
-        bottom: 40px;
-        left: 72px;
-    }
-}
-
-.js {
-    top: 120px; 
-    right: 272px;
-
-    @media(max-width: 1300px) {
-        top: auto;
-        bottom: 40px;
-        left: 222px;
-    }
-}
-
-.angular {
-    top: 120px; 
-    right: 72px;
-
-    @media(max-width: 1300px) {
-        top: auto;
-        bottom: 40px;
-        left: 372px;
-    }
-}
-
-.apis {
-    top: 300px; 
-    right: 472px;
-
-    @media(max-width: 1300px) {
-        top: auto;
-        bottom: 40px;
-        left: 522px;
-    }
-}
-
-.git {
-    top: 300px; 
-    right: 272px;
-
-    @media(max-width: 1300px) {
-        top: auto;
-        bottom: 40px;
-        left: 672px;
-
-    }
-}
-
-.scrum {
-    top: 300px; 
-    right: 72px;
-
-    @media(max-width: 1300px) {
-        left: 672px;
-        top: auto;
-        bottom: 140px;
-    }
 
     @media(max-width: 900px) {
-        left: 672px;
-        top: auto;
-        bottom: 140px;
-    }
-}
-
-.hardware {
-    top: 480px; 
-    right: 472px;
-
-    @media(max-width: 1300px) {
-        left: 672px;
-        top: auto;
-        bottom: 240px;
-    }
-}
-
-.design {
-    top: 480px; 
-    right: 272px;
-
-    @media(max-width: 1300px) {
-        left: 672px;
-        top: auto;
-        bottom: 340px;
-    }
-}
-
-.print {
-    top: 480px; 
-    right: 72px;
-
-    @media(max-width: 1300px) {
-        left: 672px;
-        top: auto;
-        bottom: 440px;
+        justify-content: center;
+        height: 64px;
+        width: 64px;
+        padding: 16px;
     }
 }
 
@@ -409,6 +376,10 @@
     top: 230vh;
     height: 60vh;
     width: 100%;
+
+    @media(max-width: 1300px) {
+        top: 300vh;
+    }
 }
 
 .myPath-Heading {
