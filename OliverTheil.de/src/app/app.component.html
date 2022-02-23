@@ -12,7 +12,7 @@
     mit dem ich mich selbst verwirklichen kann. 
   </span>
 </section>
-<section class="aboutMeSection white-Bg">
+<section id="aboutMe" class="aboutMeSection white-Bg">
   <p class="aboutMe-Heading black-Font z2">
     Über mich
   </p>
@@ -26,7 +26,7 @@
   </p>
   <img class="aboutMeImg" src="assets/img/macbook2.jpg">
 </section>
-<section class="skillset black-Bg">
+<section id="skills" class="skillset black-Bg">
   <p class="skillset-Heading z2">
     Skillset
   </p>
@@ -40,41 +40,43 @@
     Durch meine jahrelange Erfahrung in den verschiedensten Bereichen kann ich zu jedem Projekt andere Blickwinkel 
     einbringen und mit unterschiedlichen Teams auch jedes Ziel <b>gemeinsam</b> erreichen. 
   </span>
-  <div class="skillBox" style="top: 120px; right: 472px;">
-    <img class="icon" src="/assets/icons/htmlcss.png">
-    <p class="iconDescription">HTML/CSS</p>
-  </div>
-  <div class="skillBox" style="top: 120px; right: 272px;">
-    <img class="icon" src="/assets/icons/java script.png">
-    <p class="iconDescription">JavaScript</p>
-  </div>
-  <div class="skillBox" style="top: 120px; right: 72px;">
-    <img class="icon" src="/assets/icons/angular.png">
-    <p class="iconDescription">Angular</p>
-  </div>
-  <div class="skillBox" style="top: 300px; right: 472px;">
-    <img class="icon" src="/assets/icons/api.png">
-    <p class="iconDescription">APIs</p>
-  </div>
-  <div class="skillBox" style="top: 300px; right: 272px;">
-    <img class="icon" src="/assets/icons/git.png">
-    <p class="iconDescription">git</p>
-  </div>
-  <div class="skillBox" style="top: 300px; right: 72px;">
-    <img class="icon" src="/assets/icons/scrum.png">
-    <p class="iconDescription">Scrum</p>
-  </div>
-  <div class="skillBox" style="top: 480px; right: 472px;">
-    <img class="icon" src="/assets/icons/computer.svg">
-    <p class="iconDescription">Hardware</p>
-  </div>
-  <div class="skillBox" style="top: 480px; right: 272px;">
-    <img class="icon" src="/assets/icons/pen.svg">
-    <p class="iconDescription">Design</p>
-  </div>
-  <div class="skillBox" style="top: 480px; right: 72px;">
-    <img class="icon" src="/assets/icons/3d.svg">
-    <p class="iconDescription">3D Printing</p>
+  <div>
+    <div class="skillBox htmlcss">
+      <img class="icon" src="/assets/icons/htmlcss.png">
+      <p class="iconDescription">HTML/CSS</p>
+    </div>
+    <div class="skillBox js">
+      <img class="icon" src="/assets/icons/java script.png">
+      <p class="iconDescription">JavaScript</p>
+    </div>
+    <div class="skillBox angular">
+      <img class="icon" src="/assets/icons/angular.png">
+      <p class="iconDescription">Angular</p>
+    </div>
+    <div class="skillBox apis">
+      <img class="icon" src="/assets/icons/api.png">
+      <p class="iconDescription">APIs</p>
+    </div>
+    <div class="skillBox git">
+      <img class="icon" src="/assets/icons/git.png">
+      <p class="iconDescription">git</p>
+    </div>
+    <div class="skillBox scrum">
+      <img class="icon" src="/assets/icons/scrum.png">
+      <p class="iconDescription">Scrum</p>
+    </div>
+    <div class="skillBox hardware">
+      <img class="icon" src="/assets/icons/computer.svg">
+      <p class="iconDescription">Hardware</p>
+    </div>
+    <div class="skillBox design">
+      <img class="icon" src="/assets/icons/pen.svg">
+      <p class="iconDescription">Design</p>
+    </div>
+    <div class="skillBox print">
+      <img class="icon" src="/assets/icons/3d.svg">
+      <p class="iconDescription">3D Printing</p>
+    </div>
   </div>
 </section>
 <section class="myPath white-Bg">
@@ -89,7 +91,7 @@
   </span>
   <img class="myPathImg" src="assets/img/path.jpg">
 </section>
-<section class="projects">
+<section id="projects" class="projects">
   <p class="projects-Heading">Meine Projekte</p>
   <div class="projectBox white-Bg" style="right: 72px; top: 120px;">
     <img class="projectBoxImg" src="assets/img/controller.jpg">
@@ -141,7 +143,7 @@
     </span>
   </div>
 </section>
-<section class="contactMe">
+<section id="contact" class="contactMe">
   <p class="contactMe-Heading">
     Kontaktiere mich
   </p>
@@ -157,3 +159,4 @@
     <p class="contactMeMessageHeading">Message</p>
   </div>
 </section>
+<app-footer></app-footer>

@@ -3,6 +3,10 @@
 .headSection {
     width: 100%;
     height: 100vh;
+
+    @media(max-width: 400px) {
+        height: 84vh;
+    }
 }
 
 .headSectionBox {
@@ -11,6 +15,14 @@
     height: 900px;
     right: 0px;
     top: 0px;
+
+    @media(max-width: 1200px) {
+        height: 100vh;
+    }
+
+    @media(max-width: 400px) {
+        height: 84vh;
+    }
 }
 
 .headProfileImg {
@@ -22,6 +34,27 @@
     background-image: url('/assets/img/otterExampleImg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media(max-width: 1200px) {
+        width: 400px;
+        background-position: center;
+    }
+    
+    @media(max-width: 900px) {
+        top: 88px;
+        width: 100%;
+    }
+
+    @media(max-width: 900px) {
+        width: 100%;
+        height: 500px;
+    }
+
+    @media(max-width: 400px) {
+        width: 100%;
+        height: 300px;
+    }
+
 }
 
 .headSection-Heading {
@@ -36,6 +69,23 @@
     right: 72px;
     top: 273px;
     text-align: right;
+
+    @media(max-width: 900px) {
+        top: 628px;
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        line-height: 38px;
+        width: 303px;
+        height: 156px;
+        left: 16px;
+        right: auto;
+        text-align: left;
+    }
+
+    @media(max-width: 400px) {
+        top: 428px;
+    }
 }
 
 .headSection-Subheading {
@@ -51,6 +101,20 @@
     font-size: 18px;
     line-height: 150%;
     text-align: justify;
+
+    @media(max-width: 900px) {
+        width: 90%;
+        left: 16px;
+        right: auto;
+        height: 100px;
+        top: 828px;
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    @media(max-width: 400px) {
+        top: 628px;
+    }
 }
 
 //About Me
@@ -76,6 +140,14 @@
     line-height: 66px;
     display: flex;
     align-items: center;
+
+    @media(max-width: 900px) {
+        font-size: 32px;
+        line-height: 38px;
+        left: 16px;
+        top: 40px;
+        width: 160px;
+    }
 }
 
 .aboutMeImg {
@@ -84,6 +156,13 @@
     top: 0px;
     width: 750px;
     height: 60vh;
+
+    @media(max-width: 1410px) {
+        object-fit: cover;
+        width: 100%;
+        left: 0px;
+        right: auto;
+    }
 }
 
 .aboutMe-Subheading {
@@ -99,6 +178,12 @@
     font-size: 18px;
     line-height: 150%;
     text-align: justify;
+
+    @media(max-width: 900px) {
+        width: 90%;
+        left: 16px;
+        top: 140px;
+    }
 }
 
 .aboutMeMore {
@@ -119,6 +204,13 @@
 
     &:hover {
         transform: scale(1.1);
+    }
+
+    @media(max-width: 900px) {
+        left: 16px;
+    }
+    @media(max-width: 400px) {
+        top: 480px;
     }
 }
 
@@ -145,12 +237,17 @@
     line-height: 66px;
     display: flex;
     align-items: center;
+
+    @media(max-width: 900px) {
+        top: 40px;
+        left: 16px;
+    }
 }
 
 .skillset-Subheading {
     position: absolute;
     width: 576px;
-    height: 240px;
+    height: 400px;
     left: 72px;
     top: 210px;
 
@@ -160,6 +257,11 @@
     font-size: 18px;
     line-height: 150%;
     text-align: justify;
+
+    @media(max-width: 900px) {
+        left: 16px;
+        width: 90%;
+    }
 }
 
 .icon {
@@ -191,6 +293,112 @@
 
     &:hover {
         transform: scale(1.2);
+    }
+}
+
+.htmlcss {
+    top: 120px; 
+    right: 472px;
+
+    @media(max-width: 1300px) {
+        top: auto;
+        bottom: 40px;
+        left: 72px;
+    }
+}
+
+.js {
+    top: 120px; 
+    right: 272px;
+
+    @media(max-width: 1300px) {
+        top: auto;
+        bottom: 40px;
+        left: 222px;
+    }
+}
+
+.angular {
+    top: 120px; 
+    right: 72px;
+
+    @media(max-width: 1300px) {
+        top: auto;
+        bottom: 40px;
+        left: 372px;
+    }
+}
+
+.apis {
+    top: 300px; 
+    right: 472px;
+
+    @media(max-width: 1300px) {
+        top: auto;
+        bottom: 40px;
+        left: 522px;
+    }
+}
+
+.git {
+    top: 300px; 
+    right: 272px;
+
+    @media(max-width: 1300px) {
+        top: auto;
+        bottom: 40px;
+        left: 672px;
+
+    }
+}
+
+.scrum {
+    top: 300px; 
+    right: 72px;
+
+    @media(max-width: 1300px) {
+        left: 672px;
+        top: auto;
+        bottom: 140px;
+    }
+
+    @media(max-width: 900px) {
+        left: 672px;
+        top: auto;
+        bottom: 140px;
+    }
+}
+
+.hardware {
+    top: 480px; 
+    right: 472px;
+
+    @media(max-width: 1300px) {
+        left: 672px;
+        top: auto;
+        bottom: 240px;
+    }
+}
+
+.design {
+    top: 480px; 
+    right: 272px;
+
+    @media(max-width: 1300px) {
+        left: 672px;
+        top: auto;
+        bottom: 340px;
+    }
+}
+
+.print {
+    top: 480px; 
+    right: 72px;
+
+    @media(max-width: 1300px) {
+        left: 672px;
+        top: auto;
+        bottom: 440px;
     }
 }
 
@@ -514,22 +722,8 @@
     
 }
 
-
 *:focus {
     outline: none;
-}
-
-@media (max-width: 1440px) {
-    .headSectionBox {
-        left: auto;
-        right: 0px;
-    }
-
-    .headSection-Heading,
-    .headSection-Subheading {
-        left: auto;
-        right: 90px;
-    }
 }
 
 @media (max-width: 1410px) {
@@ -542,6 +736,3 @@
     }
 }
 
-@media (max-width: 820px) {
-
-}
