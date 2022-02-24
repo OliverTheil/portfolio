@@ -28,7 +28,7 @@
     line-height: 150%;
     text-align: left;
 
-    top: 40rem;
+    top: 44rem;
     right: 0;
 }
 
@@ -46,6 +46,9 @@
         text-align: right;
         right: 0;
     }
+    .headSection-Subheading {
+        top: 38rem;
+    }
 }
 
 @media(max-width: 1000px) {
@@ -57,12 +60,11 @@
     }
     .headSection-Heading {
         top: 36rem;
-        left: 0;
-        right: auto;
     }
     .headSection-Subheading {
+        text-align: right;
         width: fit-content;
-        top: 66rem;
+        top: 70rem;
         right: 0;
         left: 0;
     }
@@ -71,13 +73,32 @@
     }
 }
 
+@media(max-width: 900px) {
+    .headSection-Heading {
+        right: 0;
+        width: fit-content;
+    }
+}
+
+@media(max-width: 800px) {
+    .headSection-Heading {
+        line-height: 6rem;
+        font-size: 4.4rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .headSection-Heading {
+        line-height: 5rem;
+        font-size: 3rem;
+    }
+
+    .headSection-Subheading {
+        top: 60rem;
+    }
+}
 
 @media(max-width: 500px) {
-    .headSection-Heading {
-        text-align: left;
-        line-height: 38px;
-        font-size: 3.2rem;
-    }
     .headProfileImg {
         right: 0;
         left: -1.6rem;
@@ -86,6 +107,14 @@
 
 @media(max-width: 400px) {
     .headProfileImg {
-        height: 30rem;
+        height: 40rem;
+    }
+
+    .headSection-Heading {
+        top: 26rem;
+    }
+
+    .headSection-Subheading {
+        top: 56rem;
     }
 }
