@@ -8,6 +8,11 @@ import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataprotectionComponent } from './dataprotection/dataprotection.component';
+import { HeadpageComponent } from './headpage/headpage.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
+import { SkillsComponent } from './skills/skills.component';
+import { PathComponent } from './path/path.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { DataprotectionComponent } from './dataprotection/dataprotection.compone
     FooterComponent,
     ProjectsComponent,
     ImprintComponent,
-    DataprotectionComponent
+    DataprotectionComponent,
+    HeadpageComponent,
+    AboutmeComponent,
+    SkillsComponent,
+    PathComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

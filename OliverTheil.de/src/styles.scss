@@ -1,22 +1,30 @@
 html {
+    font-size: 62.5%;
     scroll-behavior: smooth;
 }
 
 body {
-    width: 100vw;
+    padding: 12rem 7.2rem 0 7.2rem;
     max-width: 100%;
-    padding: 40px, 72px;
     margin: 0;
     background-color: black;
     * {
     font-family: 'Sen', sans-serif;
     color: white;
     }
+
+    @media(max-width: 500px) {
+    padding: 8.8rem 1.6rem 0 1.6rem;
+    }
 }
 
-p {
+p, 
+h1, 
+h2, 
+h3 {
     margin: 0;
 }
+
 // Colors
 
 .black-1-Bg {
@@ -32,42 +40,39 @@ p {
 }
 
 .white-Bg {
-    background-color: #e6e6e6;
+    background-color: white;
 }
-
-
-
 
 // Fonts
 // Bold
 
 h1 {
-    font-size: 76px;
+    font-size: 7.6rem;
 }
 
 h2 {
-    font-size: 55px;
+    font-size: 5.5rem;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 
 .h4_1 {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .h4_2 {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .overline {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 button {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 h1,
@@ -77,30 +82,37 @@ button,
 .h4_1,
 .h4_2 {
     font-weight: 700;
+    margin-top: 12rem;
 }
 
 //Regular
 
 .reg117 {
-    font-size: 117px;
+    font-size: 11.7rem;
 }
 
 .reg18 {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .reg16 {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
+
 
 .reg117,
 .reg18,
 .reg16 {
     font-weight: 400;
+    margin-top: 6rem;
 }
 
 .black-Font {
     color: black;
+}
+
+.white-Font {
+    color: white;
 }
 
 //z-index
@@ -115,4 +127,32 @@ button,
 
 .z3 {
     z-index: 3;
+}
+
+.z4 {
+    z-index: 4;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+*:focus {
+    outline: none;
 }
