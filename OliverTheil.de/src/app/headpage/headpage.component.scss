@@ -1,120 +1,112 @@
 .headSection {
-    max-width: 100vw;
-    max-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 .headProfileImg {
-    width: 75rem;
-    height: 65rem;
-    background-image: url('/assets/img/otterExampleImg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 75rem;
+  height: 65rem;
+  background-image: url("/assets/img/otterExampleImg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 
-    left: -7.2rem;
+  top: 12rem;
+  left: 0rem;
 }
 
 .headSection-Heading {
-    width: 76rem;
-    height: fit-content;
-    line-height: 78px;
-    text-align: left;
+  width: 76rem;
+  height: fit-content;
+  line-height: 78px;
+  text-align: left;
 
-    right: 0;
+  top: 150px;
+  right: 0;
 }
 
 .headSection-Subheading {
-    width: 76rem;
-    height: fit-content;
-    line-height: 150%;
-    text-align: left;
+  width: 76rem;
+  height: fit-content;
+  line-height: 150%;
+  text-align: left;
 
-    top: 44rem;
-    right: 0;
+  top: 56rem;
+  right: 0;
 }
 
 .headSectionBox {
-    width: 120rem;
-    height: 90rem;
+  width: 120rem;
+  height: 90rem;
 
-    top: -12rem;
-    right: -7.2rem;
+  top: 0rem;
+  right: 0rem;
 }
 
-@media(max-width: 1200px) {
-    .headSection-Heading {
-        font-size: 5.5rem;
-        text-align: right;
-        right: 0;
-    }
-    .headSection-Subheading {
-        top: 38rem;
-    }
+@media (max-width: 1200px) {
+  .headSection-Heading {
+    text-align: right;
+    right: 0;
+  }
+  .headSection-Subheading {
+    text-align: right;
+  }
 }
 
-@media(max-width: 1000px) {
-    .headProfileImg {
-        top: -3.2rem;
-        height: 50rem;
-        width: 100vw;
-        background-position: top;
-    }
-    .headSection-Heading {
-        top: 36rem;
-    }
-    .headSection-Subheading {
-        text-align: right;
-        width: fit-content;
-        top: 70rem;
-        right: 0;
-        left: 0;
-    }
-    .headSectionBox {
-        height: 100vh;
-    }
+@media (max-width: 1000px) {
+  .headProfileImg {
+    top: 8.8rem;
+    height: 50rem;
+    width: 100vw;
+    background-position: top;
+  }
+  .headSection-Heading {
+    top: 50rem;
+    right: auto;
+    left: 0;
+    text-align: left;
+  }
+  .headSection-Subheading {
+    text-align: left;
+    width: fit-content;
+    top: 84rem;
+    right: 0;
+    left: 0;
+  }
+
+  .headSectionBox {
+    height: 100vh;
+  }
 }
 
-@media(max-width: 900px) {
-    .headSection-Heading {
-        right: 0;
-        width: fit-content;
-    }
+@media (max-width: 900px) {
+  .headSection-Heading {
+    left: 0;
+    width: fit-content;
+  }
 }
 
-@media(max-width: 800px) {
-    .headSection-Heading {
-        line-height: 6rem;
-        font-size: 4.4rem;
-    }
+@media (max-width: 600px) {
+  .headSection-Subheading {
+    top: 76rem;
+  }
 }
 
-@media(max-width: 600px) {
-    .headSection-Heading {
-        line-height: 5rem;
-        font-size: 3rem;
-    }
+@media (max-width: 400px) {
+  .headProfileImg {
+    height: 40rem;
+  }
 
-    .headSection-Subheading {
-        top: 60rem;
-    }
+  .headSection-Heading {
+    top: 38rem;
+  }
+
+  .headSection-Subheading {
+    top: 66rem;
+  }
 }
 
-@media(max-width: 500px) {
-    .headProfileImg {
-        right: 0;
-        left: -1.6rem;
-    }
-}
-
-@media(max-width: 400px) {
-    .headProfileImg {
-        height: 40rem;
-    }
-
-    .headSection-Heading {
-        top: 26rem;
-    }
-
-    .headSection-Subheading {
-        top: 56rem;
-    }
+@media (max-width: 385px) {
+  .headSection-Subheading {
+    top: 68rem;
+  }
 }

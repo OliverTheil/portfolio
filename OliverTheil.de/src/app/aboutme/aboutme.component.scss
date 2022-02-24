@@ -1,66 +1,61 @@
 .aboutMeSection {
-    top: 100vh;
-    left: -7.2rem;
-    height: 60rem;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
+  top: 100vh;
+  height: 60rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .aboutMeText {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutMe-Heading {
-    margin-left: 14.4rem;
-    width: 280px;
-    height: fit-content;
+  width: 280px;
+  height: fit-content;
 }
 
 .aboutMeImg {
-    width: 75rem;
-    height: 60rem;
-    right: -7.2rem;
+  width: 75rem;
+  height: 60rem;
+  right: 0;
 }
 
 .aboutMe-Subheading {
-    width: 576px;
-    height: fit-content;
-    line-height: 150%;
-    text-align: justify;
-    margin-left: 14.4rem;
+  width: 576px;
+  height: fit-content;
+  line-height: 150%;
+  text-align: justify;
 }
 
 .aboutMeMore {
+  width: fit-content;
+  height: fit-content;
+  line-height: 150%;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.125s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 1400px) {
+  .aboutMeSection {
+    background-color: black;
+  }
+  .aboutMe-Heading,
+  .aboutMe-Subheading,
+  .aboutMeMore {
+    color: white;
+  }
+}
+
+@media (max-width: 720px) {
+  .aboutMe-Heading,
+  .aboutMe-Subheading {
     width: fit-content;
-    height: fit-content;
-    line-height: 150%;
-    margin-left: 14.4rem;
-    text-decoration: underline;
-    cursor: pointer;
-    transition: all .125s ease-in-out;
-
-    &:hover {
-        transform: scale(1.1);
-    }
-}
-
-@media(max-width: 1400px) {
-    .aboutMeSection {
-        background-color: black;
-    }
-    .aboutMe-Heading,
-    .aboutMe-Subheading,
-    .aboutMeMore {
-        color: white;
-    }
-}
-
-@media(max-width: 500px) {
-    .aboutMe-Heading,
-    .aboutMe-Subheading,
-    .aboutMeMore {
-        margin-left: 8.8rem;
-    }
+  }
 }

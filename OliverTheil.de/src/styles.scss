@@ -1,78 +1,92 @@
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
-    padding: 12rem 7.2rem 0 7.2rem;
-    max-width: 100%;
-    margin: 0;
-    background-color: black;
-    * {
-    font-family: 'Sen', sans-serif;
+  width: 100%;
+  max-width: 1920px;
+  max-width: 100%;
+  margin: 0;
+  background-color: black;
+  * {
+    font-family: "Sen", sans-serif;
     color: white;
-    }
-
-    @media(max-width: 500px) {
-    padding: 8.8rem 1.6rem 0 1.6rem;
-    }
+  }
 }
 
-p, 
-h1, 
-h2, 
+p,
+h1,
+h2,
 h3 {
-    margin: 0;
+  margin: 0;
 }
 
 // Colors
 
 .black-1-Bg {
-    background-color: black;
+  background-color: black;
 }
 
 .black-2-Bg {
-    background-color: #181823;
+  background-color: #181823;
 }
 
 .purple-Bg {
-    background-color: #5221E6;
+  background-color: #5221e6;
 }
 
 .white-Bg {
-    background-color: white;
+  background-color: white;
 }
 
 // Fonts
 // Bold
 
 h1 {
-    font-size: 7.6rem;
+  font-size: 7.6rem;
+
+  @media (max-width: 1200px) {
+    font-size: 5.5rem;
+  }
+
+  @media (max-width: 800px) {
+    line-height: 6rem !important;
+    font-size: 4.4rem;
+  }
+
+  @media (max-width: 600px) {
+    line-height: 4rem !important;
+    font-size: 3rem;
+  }
 }
 
 h2 {
-    font-size: 5.5rem;
+  font-size: 5.5rem;
+
+  @media (max-width: 800px) {
+    font-size: 3.2rem;
+  }
 }
 
 h3 {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
-
 .h4_1 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .h4_2 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .overline {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 button {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 h1,
@@ -81,78 +95,87 @@ h3,
 button,
 .h4_1,
 .h4_2 {
-    font-weight: 700;
-    margin-top: 12rem;
+  font-weight: 700;
+  margin-top: 12rem;
 }
 
 //Regular
 
 .reg117 {
-    font-size: 11.7rem;
+  font-size: 11.7rem;
 }
 
 .reg18 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .reg16 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
-
 
 .reg117,
 .reg18,
 .reg16 {
-    font-weight: 400;
-    margin-top: 4rem;
+  font-weight: 400;
+  margin-top: 4rem;
 }
 
 .black-Font {
-    color: black;
+  color: black;
 }
 
 .white-Font {
-    color: white;
+  color: white;
 }
 
 //z-index
 
 .z1 {
-    z-index: 1;
+  z-index: 1;
 }
 
 .z2 {
-    z-index: 2;
+  z-index: 2;
 }
 
 .z3 {
-    z-index: 3;
+  z-index: 3;
 }
 
 .z4 {
-    z-index: 4;
+  z-index: 4;
 }
 
 .absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .fixed {
-    position: fixed;
+  position: fixed;
 }
 
 .relative {
-    position: relative;
+  position: relative;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .show {
-    display: flex;
+  display: flex;
 }
 
 *:focus {
-    outline: none;
+  outline: none;
+}
+
+.marginHorizontal72 {
+  margin-left: 7.2rem;
+  margin-right: 7.2rem;
+
+  @media (max-width: 500px) {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
 }
