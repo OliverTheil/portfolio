@@ -1,50 +1,47 @@
 .myPath {
-    position: absolute;
-    top: 230vh;
-    height: 60vh;
-    width: 100%;
+  position: absolute;
+  top: 230vh;
+  height: 60rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 
-    @media(max-width: 1300px) {
-        top: 300vh;
-    }
+  @media (max-width: 1300px) {
+    top: 250vh;
+  }
 }
 
 .myPath-Heading {
-    position: absolute;
-    width: 580px;
-    height: 66px;
-    right: 72px;
-    top: 120px;
-    
-    font-family: Sen;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 66px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  max-width: 58rem;
+  height: fit-content;
+  text-align: right;
+
+  @media (max-width: 500px) {
+    text-align: left;
+  }
 }
 
 .myPath-Subheading {
-    position: absolute;
-    width: 576px;
-    height: 240px;
-    right: 72px;
-    top: 210px;
+  max-width: 58rem;
+  height: 240px;
+  line-height: 150%;
+  text-align: right;
 
-    font-family: Sen;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 150%;
-    text-align: justify;
+  @media (max-width: 500px) {
+    text-align: left;
+  }
 }
 
 .myPathImg {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 750px;
-    height: 60vh;
+  left: 0px;
+  top: 0px;
+  width: 75rem;
+  max-width: 100%;
+  height: 60rem;
+
+  @media (max-width: 500px) {
+    object-fit: cover;
+    object-position: top;
+  }
 }

@@ -1,136 +1,153 @@
-//projects
-
 .projects {
-    position: absolute;
-    width: 100%;
-    height: 206vh;
-    top: 290vh;
-    border-bottom: 1px solid #5221e67e;
-}
+  width: 100vw;
+  max-width: 100%;
+  height: 206vh;
+  top: 290vh;
+  border-bottom: 1px solid #5221e67e;
 
-.projects-Heading {
-    position: absolute;
-    width: 420px;
-    height: 66px;
-    left: 72px;
-    top: 120px;
-
-    font-family: Sen;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 66px;
-    display: flex;
-    align-items: center;    
-}
-
-.projectBox {
-    position: absolute;
-    width: 650px;
-    height: 810px;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
-
-    transition: all .125s ease-in-out;
-
-    &:hover {
-        transform: scale(1.02);
-    }
-}
-
-.projectBoxImg {
-    position: absolute;
-    object-fit: cover;
-    width: 650px;
-    height: 600px;
-    top: 0px;
+  @media (max-width: 1300px) {
+    top: 310vh;
+  }
 }
 
 .projectBox-Heading {
-    position: static;
-    width: 333px;
-    height: 29px;
-    left: 32px;
-    top: 40px;
-
-    font-family: Sen;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-
-    display: flex;
-    align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 2rem;
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
 }
 
 .projectBox-Subheading {
-    position: absolute;
-    width: 572px;
-    height: 81px;
-    left: 32px;
-    top: 87px;
-
-    font-family: Sen;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    text-align: justify;
-    line-height: 150%;
-
-    display: flex;
-    align-items: center;
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
 }
 
-.projectBoxTextBox {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 40px 32px;
+.projectBox {
+  width: 60rem;
+  height: 80rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  transition: all 0.125s ease-in-out;
 
-    position: absolute;
-    width: 586px;
-    height: 130px;
-    top: 600px;
-    left: 0;
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  @media (max-width: 1380px) {
+    height: 30rem;
+    width: 80rem;
+  }
+
+  @media (max-width: 960px) {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 1380px) {
+  .turnBox {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .setBox {
+    display: flex;
+  }
+}
+
+.projectBoxImg {
+  object-fit: cover;
+  width: 60rem;
+  height: 60rem;
+
+  @media (max-width: 1380px) {
+    width: 40%;
+    height: 30rem;
+  }
+
+  @media (max-width: 960px) {
+    width: 50%;
+  }
+}
+
+.right-1 {
+  right: 7.2rem;
+  top: 12rem;
+
+  @media (max-width: 1380px) {
+    left: auto;
+    top: 96rem;
+  }
+
+  @media (max-width: 800px) {
+  }
+}
+
+.right-2 {
+  right: 7.2rem;
+  top: 96rem;
+
+  @media (max-width: 1380px) {
+    right: auto;
+    left: 7.2rem;
+    top: 130rem;
+  }
+
+  @media (max-width: 800px) {
+  }
+}
+
+.left-1 {
+  left: 7.2rem;
+  top: 28rem;
+
+  @media (max-width: 1380px) {
+    right: 7.2rem;
+    left: auto;
+  }
+
+  @media (max-width: 800px) {
+  }
+}
+
+.left-2 {
+  left: 7.2rem;
+  top: 112rem;
+
+  @media (max-width: 1380px) {
+    top: 60rem;
+  }
+
+  @media (max-width: 800px) {
+  }
 }
 
 .otherProjectsContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 24px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 32px;
+  width: 25rem;
+  height: 7.5rem;
+  right: 27rem;
+  top: 183rem;
+  cursor: pointer;
+  border: 1px solid #5221e6;
+  box-sizing: border-box;
+  transition: all 0.125s ease-in-out;
 
-    position: absolute;
-    width: 250px;
-    height: 75px;
-    right: 272px;
-    top: 1830px;
-
-    cursor: pointer;
-    border: 1px solid #5221E6;
-    box-sizing: border-box;
-
-    transition: all .125s ease-in-out;
-
-    &:hover {
-        background-color: #5221E6;
-        transform: scale(1.02);
-    }
+  &:hover {
+    background-color: #5221e6;
+    transform: scale(1.02);
+  }
 }
 
 .otherProjectsSpan {
-    position: absolute;
-    width: 183px;
-    height: 27px;
-    left: 32px;
-    top: 24px;
-    
-    font-family: Sen;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 150%;
-    
-    text-transform: uppercase;
+  width: 18rem;
+  height: 2.7rem;
+  left: 32px;
+  top: 24px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
 }
-

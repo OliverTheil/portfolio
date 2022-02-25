@@ -57,6 +57,7 @@
     top: 8.8rem;
     height: 50rem;
     width: 100vw;
+    max-width: 100%;
     background-position: top;
   }
   .headSection-Heading {
@@ -85,9 +86,19 @@
   }
 }
 
+@media (max-width: 800px) {
+  .headSection-Heading {
+    top: 56rem;
+  }
+}
+
 @media (max-width: 600px) {
   .headSection-Subheading {
     top: 76rem;
+  }
+
+  .headSection-Heading {
+    top: 56rem;
   }
 }
 
@@ -97,7 +108,7 @@
   }
 
   .headSection-Heading {
-    top: 38rem;
+    top: 46rem;
   }
 
   .headSection-Subheading {

@@ -29,7 +29,7 @@ h3 {
 }
 
 .black-2-Bg {
-  background-color: #181823;
+  background-color: #181823af;
 }
 
 .purple-Bg {
@@ -87,16 +87,20 @@ h3 {
 
 button {
   font-size: 1.8rem;
+  font-weight: 700;
 }
 
 h1,
 h2,
 h3,
-button,
 .h4_1,
 .h4_2 {
   font-weight: 700;
   margin-top: 12rem;
+
+  @media (max-width: 800px) {
+    margin-top: 6rem;
+  }
 }
 
 //Regular
@@ -118,6 +122,11 @@ button,
 .reg16 {
   font-weight: 400;
   margin-top: 4rem;
+
+  @media (max-width: 720px) {
+    width: fit-content;
+    line-height: normal !important;
+  }
 }
 
 .black-Font {
@@ -177,5 +186,32 @@ button,
   @media (max-width: 500px) {
     margin-left: 1.6rem;
     margin-right: 1.6rem;
+  }
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  max-width: 100%;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }

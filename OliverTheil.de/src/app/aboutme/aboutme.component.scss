@@ -2,13 +2,9 @@
   top: 100vh;
   height: 60rem;
   width: 100vw;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-.aboutMeText {
-  display: flex;
-  flex-direction: column;
 }
 
 .aboutMe-Heading {
@@ -26,7 +22,7 @@
   width: 576px;
   height: fit-content;
   line-height: 150%;
-  text-align: justify;
+  text-align: left;
 }
 
 .aboutMeMore {
