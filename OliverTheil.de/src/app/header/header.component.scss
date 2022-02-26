@@ -1,5 +1,4 @@
 .logo {
-  z-index: 4;
   position: fixed;
   height: 6rem;
   object-fit: contain;
@@ -21,7 +20,7 @@
   }
 }
 
-header {
+.navbar-Desktop {
   z-index: 3;
   position: fixed;
   top: 0;
@@ -60,9 +59,102 @@ header {
     }
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 800px) {
     display: none;
   }
 }
 
-//Logo
+.navbar-Mobile {
+  top: 12rem;
+  right: 0;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  color: rgba(128, 128, 128, 0.459);
+  padding: 1.6rem;
+  opacity: 0.8;
+  transition: all 50ms ease-in-out;
+
+  &:hover {
+    color: #5221e6;
+    opacity: 1;
+    filter: brightness(1.5);
+    transform: scale(1.1);
+  }
+}
+
+.fa-arrow-right-from-bracket {
+  color: rgba(128, 128, 128, 0.459);
+  opacity: 0.8;
+  transition: all 50ms ease-in-out;
+
+  &:hover {
+    color: #5221e6;
+    opacity: 1;
+    filter: brightness(1.5);
+    transform: scale(1.1);
+  }
+}
+
+.navbar-MobileText {
+  top: 12rem;
+  right: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 40rem;
+  justify-content: space-between;
+  display: none;
+
+  a {
+    height: 5rem;
+    text-decoration: none;
+    padding: 1.6rem;
+    position: static;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #ffffff;
+    opacity: 0.7;
+    transition: all 50ms ease-in-out;
+    &:hover {
+      border-radius: 4px;
+      opacity: 1;
+      background-color: #5221e6;
+    }
+  }
+}
+
+.headerMenuButton {
+  padding: 0rem !important;
+  height: 32px;
+  width: 32px;
+  transform: rotate(180deg);
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  right: 1.6rem;
+  top: 3rem;
+  display: none;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  &:hover {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  @media (max-width: 800px) {
+    display: flex;
+  }
+}
