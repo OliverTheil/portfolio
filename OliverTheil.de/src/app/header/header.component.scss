@@ -31,7 +31,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-image: linear-gradient(to right, #18182300, #181823);
+  background: rgba(255, 255, 255, 0.137);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.8px);
+  -webkit-backdrop-filter: blur(7.8px);
 
   a {
     height: 88px;
@@ -52,7 +55,7 @@
     color: #ffffff;
 
     opacity: 0.7;
-    transition: all 50ms ease-in-out;
+    transition: all 125ms ease-in-out;
     &:hover {
       opacity: 1;
       background-color: #5221e6;
@@ -64,6 +67,38 @@
   }
 }
 
+.change1 {
+  transition: all 100ms ease-in-out;
+  opacity: 1 !important;
+  transform: rotate(0deg) !important;
+  color: #5221e6 !important;
+}
+
+.change2 {
+  transition: all 100ms ease-in-out;
+  opacity: 1 !important;
+  transform: rotate(0deg) !important;
+  color: #5221e6 !important;
+}
+
+.showNavbar {
+  display: flex !important;
+}
+
+.showNavbarText {
+  display: flex !important;
+}
+
+.navbarChange {
+  width: 18rem;
+  background: rgba(65, 14, 185, 0.219);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.8px);
+  -webkit-backdrop-filter: blur(7.8px);
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
 .navbar-Mobile {
   top: 12rem;
   right: 0;
@@ -72,13 +107,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  display: none;
+  transition: all 125ms ease-in-out;
 }
 
 .icon {
-  color: rgba(128, 128, 128, 0.459);
+  color: rgba(179, 179, 179, 0.897);
   padding: 1.6rem;
   opacity: 0.8;
-  transition: all 50ms ease-in-out;
+  transition: all 125ms ease-in-out;
 
   &:hover {
     color: #5221e6;
@@ -89,27 +126,21 @@
 }
 
 .fa-arrow-right-from-bracket {
-  color: rgba(128, 128, 128, 0.459);
+  color: rgba(179, 179, 179, 0.897);
   opacity: 0.8;
-  transition: all 50ms ease-in-out;
-
-  &:hover {
-    color: #5221e6;
-    opacity: 1;
-    filter: brightness(1.5);
-    transform: scale(1.1);
-  }
+  transition: all 125ms ease-in-out;
 }
 
 .navbar-MobileText {
   top: 12rem;
-  right: 6rem;
+  right: 0rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   height: 40rem;
   justify-content: space-between;
   display: none;
+  transition: all 125ms ease-in-out;
 
   a {
     height: 5rem;
@@ -126,11 +157,11 @@
     text-align: right;
     color: #ffffff;
     opacity: 0.7;
-    transition: all 50ms ease-in-out;
+    transition: all 125ms ease-in-out;
+
     &:hover {
-      border-radius: 4px;
       opacity: 1;
-      background-color: #5221e6;
+      color: #5221e6;
     }
   }
 }
@@ -148,11 +179,7 @@
   display: none;
   opacity: 0.7;
   cursor: pointer;
-  transition: all 100ms ease-in-out;
-  &:hover {
-    opacity: 1;
-    transform: rotate(0deg);
-  }
+  transition: all 125ms ease-in-out;
 
   @media (max-width: 800px) {
     display: flex;

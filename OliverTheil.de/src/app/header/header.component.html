@@ -1,31 +1,53 @@
 <img class="logo z4" src="/assets/logos/logoPurple.png" />
-<button class="headerMenuButton z4">
-  <i class="fa-solid fa-arrow-right-from-bracket fa-2x"></i>
+<button
+  (click)="openMenu()"
+  [class.change1]="iconHovered"
+  class="headerMenuButton z4"
+>
+  <i
+    [class.change2]="iconHovered"
+    class="fa-solid fa-arrow-right-from-bracket fa-2x"
+  ></i>
 </button>
 <header>
   <nav class="navbar-Desktop">
-    <a routerLink="/">Home</a>
+    <a href="#headpage">Home</a>
     <a href="#aboutMe">Über mich</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projekte</a>
     <a href="#contact">Kontakt</a>
   </nav>
-  <nav class="navbar-Mobile z4 fixed">
-    <a routerLink="/"><i class="fa-solid icon fa-house fa-3x"></i></a>
-    <a href="#aboutMe"><i class="fa-solid icon fa-user fa-3x"></i></a>
-    <a href="#skills"><i class="fa-solid icon fa-clipboard-list fa-3x"></i></a>
-    <a href="#projects"><i class="fa-solid icon fa-boxes-stacked fa-3x"></i></a>
-    <a href="#contact"><i class="fa-solid icon fa-address-card fa-3x"></i></a>
-    <a href="#footer"
+  <nav [class.showNavbar]="iconHovered" class="navbar-Mobile z5 fixed">
+    <a (mouseover)="showText()" (click)="openMenu()" href="#headpage"
+      ><i class="fa-solid icon fa-house fa-3x"></i
+    ></a>
+    <a (mouseover)="showText()" (click)="openMenu()" href="#aboutMe"
+      ><i class="fa-solid icon fa-user fa-3x"></i
+    ></a>
+    <a (mouseover)="showText()" (click)="openMenu()" href="#skills"
+      ><i class="fa-solid icon fa-clipboard-list fa-3x"></i
+    ></a>
+    <a (mouseover)="showText()" (click)="openMenu()" href="#projects"
+      ><i class="fa-solid icon fa-boxes-stacked fa-3x"></i
+    ></a>
+    <a (mouseover)="showText()" (click)="openMenu()" href="#contact"
+      ><i class="fa-solid icon fa-address-card fa-3x"></i
+    ></a>
+    <a (mouseover)="showText()" (click)="openMenu()" href="#footer"
       ><i class="fa-solid icon fa-square-caret-down fa-3x"></i
     ></a>
   </nav>
-  <div id="mobileText" class="navbar-MobileText fixed z4">
-    <a routerLink="/">Home</a>
-    <a href="#aboutMe">Über mich</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projekte</a>
-    <a href="#contact">Kontakt</a>
-    <a href="#footer">Footer</a>
+  <div
+    [class.showNavbarText]="activeText"
+    [class.navbarChange]="iconHovered"
+    id="mobileText"
+    class="navbar-MobileText fixed z4"
+  >
+    <a (click)="openMenu()" href="#headpage">Home</a>
+    <a (click)="openMenu()" href="#aboutMe">Über mich</a>
+    <a (click)="openMenu()" href="#skills">Skills</a>
+    <a (click)="openMenu()" href="#projects">Projekte</a>
+    <a (click)="openMenu()" href="#contact">Kontakt</a>
+    <a (click)="openMenu()" href="#contact">Footer</a>
   </div>
 </header>
