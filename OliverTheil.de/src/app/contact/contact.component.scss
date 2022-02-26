@@ -1,134 +1,177 @@
 //contact Me
 
 .contactMe {
-    position: absolute;
-    height: 60vh;
-    width: 100%;
-    top: 496vh;
+  height: 60rem;
+  width: 100vw;
+  max-width: 100%;
+  top: 496vh;
+
+  @media (max-width: 1380px) {
+    top: 470vh;
+  }
+
+  @media (max-width: 1300px) {
+    top: 490vh;
+    height: 84rem;
+  }
+
+  @media (max-width: 800px) {
+    top: 550vh;
+  }
 }
 
 .contactMe-Heading {
-    position: absolute;
-    width: 526px;
-    height: 66px;
-    left: 72px;
-    top: 120px;
-
-    font-family: Sen;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 66px;
-    display: flex;
-    align-items: center;
+  width: fit-content;
+  height: fit-content;
 }
 
 .contactMe-Subheading {
-    position: absolute;
-    width: 526px;
-    height: 54px;
-    left: 72px;
-    top: 210px;
+  max-width: 54rem;
+  max-height: 5.5rem;
+  margin-top: 4rem;
+  text-align: left;
+  font-size: large;
 
-    font-family: Sen;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    text-align: justify;
-    line-height: 150%;
+  @media (max-width: 700px) {
+    max-width: 34rem;
+  }
 }
 
 .contactMeNameHeading {
-    position: absolute;
-    width: 46px;
-    height: 24px;
-    right: 72px;
-    top: 120px;
+  width: fit-content;
+  height: fit-content;
+  top: 12rem;
+  right: 0;
+  margin-top: 0;
 
-    /* Paragraph - 16px */
-
-    font-family: Sen;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
+  @media (max-width: 1300px) {
+    top: 30rem;
+  }
 }
 
 .nameInput {
-    position: absolute;
-    width: 526px;
-    height: 50px;
-    right: 72px;
-    top: 152px;
-    border: none;
-    padding-right: 10px;
-    padding-left: 10px;
-    /* Level 1 */
+  width: 52rem;
+  height: 5rem;
+  top: 15.2rem;
+  right: 0;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: #181823;
 
-    background: #181823;
+  @media (max-width: 1300px) {
+    top: 33rem;
+  }
 }
 
 .contactMeEmailHeading {
-    position: absolute;
-    width: 44px;
-    height: 24px;
-    right: 72px;
-    top: 242px;
-    
-    /* Paragraph - 16px */
-    
-    font-family: Sen;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
+  width: fit-content;
+  height: fit-content;
+  top: 24.2rem;
+  right: 0;
+  margin-top: 0;
+
+  @media (max-width: 1300px) {
+    top: 42rem;
+  }
 }
 
 .emailInput {
-    position: absolute;
-    width: 526px;
-    height: 50px;
-    right: 72px;
-    top: 274px;
-    border: none;
-    padding-right: 10px;
-    padding-left: 10px;
+  width: 52rem;
+  height: 5rem;
+  top: 27.4rem;
+  right: 0;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: #181823;
 
-    background: #181823;
+  @media (max-width: 1300px) {
+    top: 45rem;
+  }
 }
 
 .contactMeMessageHeading {
-    position: absolute;
-    width: 64px;
-    height: 24px;
-    right: 72px;
-    top: 364px;
-    
-    /* Paragraph - 16px */
-    
-    font-family: Sen;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
+  width: fit-content;
+  height: fit-content;
+  right: 0;
+  top: 36.4rem;
+  margin-top: 0;
+
+  @media (max-width: 1300px) {
+    top: 52rem;
+  }
 }
 
 .messageInput {
-    position: absolute;
-    width: 526px;
-    height: 100px;
-    right: 72px;
-    top: 396px;
-    padding: 10px;
-    resize: none;
-    overflow:auto;
-    /* Level 1 */
-    border: none;
-    background: #181823;
-    overflow: scroll;
+  width: 52rem;
+  height: 10rem;
+  right: 0;
+  top: 39rem;
+  padding: 10px;
+  resize: none;
+  overflow: auto;
+  border: none;
+  background: #181823;
+  overflow: scroll;
 
-    &::-webkit-scrollbar {
-        display: none;
-      }
-    
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 1300px) {
+    top: 55rem;
+  }
+}
+
+.contactMeNameHeading,
+.contactMeEmailHeading,
+.contactMeMessageHeading,
+.nameInput,
+.emailInput,
+.messageInput,
+.contactButton {
+  right: 7.2rem;
+
+  @media (max-width: 1300px) {
+    left: 7.2rem;
+  }
+
+  @media (max-width: 700px) {
+    max-width: 32rem;
+  }
+
+  @media (max-width: 500px) {
+    left: 1.6rem;
+    max-width: 26rem;
+  }
+}
+
+.contactButton {
+  text-align: center;
+  width: 54rem;
+  height: fit-content;
+  top: 58rem;
+  padding: 24px 32px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #5221e6;
+  transition: all 0.125s ease-in-out;
+
+  &:hover {
+    background-color: #5221e6;
+    transform: scale(1.02);
+  }
+
+  @media (max-width: 1300px) {
+    top: 72rem;
+  }
+
+  @media (max-width: 700px) {
+    max-width: 34rem;
+  }
+
+  @media (max-width: 500px) {
+    max-width: 28rem;
+  }
 }
