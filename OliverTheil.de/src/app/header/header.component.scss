@@ -100,7 +100,7 @@
 }
 
 .navbar-Mobile {
-  top: 12rem;
+  top: 9rem;
   right: 0;
   height: 40rem;
   display: flex;
@@ -112,15 +112,15 @@
 }
 
 .icon {
-  color: rgba(179, 179, 179, 0.897);
+  color: rgba(113, 66, 223, 0.678);
   padding: 1.6rem;
   opacity: 0.8;
   transition: all 125ms ease-in-out;
 
   &:hover {
-    color: #5221e6;
+    color: #5c26ff;
     opacity: 1;
-    filter: brightness(1.5);
+    filter: brightness(1.8);
     transform: scale(1.1);
   }
 }
@@ -132,7 +132,7 @@
 }
 
 .navbar-MobileText {
-  top: 12rem;
+  top: 9rem;
   right: 0rem;
   display: flex;
   flex-direction: column;
