@@ -1,4 +1,4 @@
-.logo {
+.navbar__logo {
   position: fixed;
   height: 6rem;
   object-fit: contain;
@@ -20,7 +20,7 @@
   }
 }
 
-.navbar-Desktop {
+.navbar__desktop {
   z-index: 3;
   position: fixed;
   top: 0;
@@ -67,29 +67,17 @@
   }
 }
 
-.change1 {
+.navbar__button--turn {
+  transform: rotate(0deg) !important;
+}
+
+.navbar__icon--effect {
   transition: all 100ms ease-in-out;
   opacity: 1 !important;
-  transform: rotate(0deg) !important;
   color: #5221e6 !important;
 }
 
-.change2 {
-  transition: all 100ms ease-in-out;
-  opacity: 1 !important;
-  transform: rotate(0deg) !important;
-  color: #5221e6 !important;
-}
-
-.showNavbar {
-  display: flex !important;
-}
-
-.showNavbarText {
-  display: flex !important;
-}
-
-.navbarChange {
+.navbar--change {
   width: 18rem;
   background: rgba(65, 14, 185, 0.219);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -99,7 +87,7 @@
   border-top-left-radius: 8px;
 }
 
-.navbar-Mobile {
+.navbar__mobile {
   top: 9rem;
   right: 0;
   height: 40rem;
@@ -111,7 +99,7 @@
   transition: all 125ms ease-in-out;
 }
 
-.icon {
+.navbar__icon {
   color: rgba(113, 66, 223, 0.678);
   padding: 1.6rem;
   opacity: 0.8;
@@ -125,13 +113,13 @@
   }
 }
 
-.fa-arrow-right-from-bracket {
+.navbar__arrow {
   color: rgba(179, 179, 179, 0.897);
   opacity: 0.8;
   transition: all 125ms ease-in-out;
 }
 
-.navbar-MobileText {
+.navbar__mobile__text {
   top: 9rem;
   right: 0rem;
   display: flex;
@@ -166,7 +154,7 @@
   }
 }
 
-.headerMenuButton {
+.header__menu__button {
   padding: 0rem !important;
   height: 32px;
   width: 32px;
