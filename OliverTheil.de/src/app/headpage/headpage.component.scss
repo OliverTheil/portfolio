@@ -1,20 +1,18 @@
-.headSection {
+.head {
   max-width: 100vw;
   max-height: 100vh;
 }
 
-.headProfileImg {
+.head__img {
   width: 75rem;
   height: 65rem;
   background-image: url("/assets/img/otterExampleImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
-  top: 12rem;
-  left: 0rem;
+  margin-top: 12rem;
 }
 
-.headSection-Heading {
+.head__heading {
   width: 76rem;
   height: fit-content;
   line-height: 78px;
@@ -24,7 +22,7 @@
   right: 0;
 }
 
-.headSection-Subheading {
+.head__subheading {
   width: 76rem;
   height: fit-content;
   line-height: 150%;
@@ -34,39 +32,44 @@
   right: 0;
 }
 
-.headSectionBox {
+.head--position {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box {
+  top: 0;
+  right: 0;
   width: 120rem;
   height: 90rem;
-
-  top: 0rem;
-  right: 0rem;
 }
 
 @media (max-width: 1200px) {
-  .headSection-Heading {
+  .head__heading {
     text-align: right;
     right: 0;
   }
-  .headSection-Subheading {
+  .head__subheading {
     text-align: right;
   }
 }
 
 @media (max-width: 1000px) {
-  .headProfileImg {
-    top: 8.8rem;
+  .head__img {
+    margin-top: 8.8rem;
     height: 50rem;
     width: 100vw;
     max-width: 100%;
     background-position: top;
   }
-  .headSection-Heading {
+  .head__heading {
     top: 50rem;
     right: auto;
     left: 0;
     text-align: left;
   }
-  .headSection-Subheading {
+  .head__subheading {
     text-align: left;
     width: fit-content;
     top: 84rem;
@@ -74,50 +77,50 @@
     left: 0;
   }
 
-  .headSectionBox {
+  .box {
     height: 100vh;
   }
 }
 
 @media (max-width: 900px) {
-  .headSection-Heading {
+  .head__heading {
     left: 0;
     width: fit-content;
   }
 }
 
 @media (max-width: 800px) {
-  .headSection-Heading {
+  .head__heading {
     top: 56rem;
   }
 }
 
 @media (max-width: 600px) {
-  .headSection-Subheading {
+  .head__subheading {
     top: 76rem;
   }
 
-  .headSection-Heading {
+  .head__heading {
     top: 56rem;
   }
 }
 
 @media (max-width: 400px) {
-  .headProfileImg {
+  .head__img {
     height: 40rem;
   }
 
-  .headSection-Heading {
+  .head__heading {
     top: 46rem;
   }
 
-  .headSection-Subheading {
+  .head__subheading {
     top: 66rem;
   }
 }
 
 @media (max-width: 385px) {
-  .headSection-Subheading {
+  .head__subheading {
     top: 68rem;
   }
 }

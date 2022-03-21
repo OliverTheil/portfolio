@@ -53,19 +53,19 @@ h3 {
 
 // Colors
 
-.black-1-Bg {
+.bgc--black--1 {
   background-color: black;
 }
 
-.black-2-Bg {
+.bgc--black--2 {
   background-color: #181823af;
 }
 
-.purple-Bg {
+.bgc--purple {
   background-color: #5221e6;
 }
 
-.white-Bg {
+.bgc--white {
   background-color: white;
 }
 
@@ -102,12 +102,14 @@ h3 {
   font-size: 2.4rem;
 }
 
-.h4_1 {
-  font-size: 1.8rem;
-}
+.h4 {
+  &--1 {
+    font-size: 1.8rem;
+  }
 
-.h4_2 {
-  font-size: 1.6rem;
+  &--2 {
+    font-size: 1.6rem;
+  }
 }
 
 .overline {
@@ -122,8 +124,8 @@ button {
 h1,
 h2,
 h3,
-.h4_1,
-.h4_2 {
+.h4--1,
+.h4--2 {
   font-weight: 700;
   margin-top: 12rem;
 
@@ -134,21 +136,23 @@ h3,
 
 //Regular
 
-.reg117 {
-  font-size: 11.7rem;
+.reg {
+  &--117 {
+    font-size: 11.7rem;
+  }
+
+  &--18 {
+    font-size: 1.8rem;
+  }
+
+  &--16 {
+    font-size: 1.6rem;
+  }
 }
 
-.reg18 {
-  font-size: 1.8rem;
-}
-
-.reg16 {
-  font-size: 1.6rem;
-}
-
-.reg117,
-.reg18,
-.reg16 {
+.reg--117,
+.reg--18,
+.reg--16 {
   font-weight: 400;
   margin-top: 4rem;
 
@@ -158,34 +162,38 @@ h3,
   }
 }
 
-.black-Font {
-  color: black;
-}
+.font {
+  &--black {
+    color: black;
+  }
 
-.white-Font {
-  color: white;
+  &--white {
+    color: white;
+  }
 }
 
 //z-index
 
-.z1 {
-  z-index: 1;
-}
+.z {
+  &--1 {
+    z-index: 1;
+  }
 
-.z2 {
-  z-index: 2;
-}
+  &--2 {
+    z-index: 2;
+  }
 
-.z3 {
-  z-index: 3;
-}
+  &--3 {
+    z-index: 3;
+  }
 
-.z4 {
-  z-index: 4;
-}
+  &--4 {
+    z-index: 4;
+  }
 
-.z5 {
-  z-index: 5;
+  &--5 {
+    z-index: 5;
+  }
 }
 
 .absolute {
@@ -212,7 +220,7 @@ h3,
   outline: none;
 }
 
-.marginHorizontal72 {
+.marg--lr--72 {
   margin-left: 7.2rem;
   margin-right: 7.2rem;
 
