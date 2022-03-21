@@ -1,57 +1,40 @@
-.aboutMeSection {
-  top: 100vh;
-  height: 60rem;
+.aboutMe {
+  height: 600px;
   width: 100vw;
   max-width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.aboutMe-Heading {
-  width: 280px;
-  height: fit-content;
-}
-
-.aboutMeImg {
-  width: 75rem;
-  height: 60rem;
+.aboutMe__img {
+  width: 750px;
+  height: 600px;
   right: 0;
 }
 
-.aboutMe-Subheading {
-  width: 576px;
-  height: fit-content;
-  line-height: 150%;
-  text-align: left;
+.aboutMe__text {
+  max-width: 580px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
-.aboutMeMore {
+.aboutMe__more {
+  margin-top: 100px;
   width: fit-content;
-  height: fit-content;
   line-height: 150%;
   text-decoration: underline;
   cursor: pointer;
-  transition: all 0.125s ease-in-out;
-
   &:hover {
     transform: scale(1.1);
   }
 }
 
 @media (max-width: 1400px) {
-  .aboutMeSection {
+  .aboutMe {
     background-color: black;
-  }
-  .aboutMe-Heading,
-  .aboutMe-Subheading,
-  .aboutMeMore {
-    color: white;
-  }
-}
-
-@media (max-width: 720px) {
-  .aboutMe-Heading,
-  .aboutMe-Subheading {
-    width: fit-content;
+    * {
+      color: white;
+    }
   }
 }
