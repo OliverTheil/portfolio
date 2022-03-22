@@ -9,6 +9,7 @@
 
 .path__text {
   max-width: 580px;
+  max-height: 600px;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -25,7 +26,11 @@
   height: 458px;
   object-fit: cover;
 
-  @media (max-width: 800px) {
-    height: 370px;
+  @media (max-width: 400px) {
+    height: 500px;
+  }
+
+  @media (max-width: 350px) {
+    height: 600px;
   }
 }
