@@ -7,7 +7,7 @@ body {
   width: 100%;
   max-width: 1920px;
   max-width: 100%;
-  height: 542vh;
+  height: fit-content;
   margin: 0;
   background-color: black;
   * {
@@ -233,5 +233,39 @@ h3,
   @media (max-width: 750px) {
     margin-left: 1.6rem;
     margin-right: 1.6rem;
+  }
+}
+
+@keyframes animationright {
+  0% {
+    transform: translate(500px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes animationleft {
+  0% {
+    transform: translate(-500px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px);
+    opacity: 1;
   }
 }

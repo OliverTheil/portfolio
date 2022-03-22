@@ -1,29 +1,18 @@
-.contactMe {
-  height: 72rem;
+.contact {
+  height: 450px;
   width: 100vw;
   max-width: 100%;
-  top: 496vh;
-
-  @media (max-width: 1380px) {
-    top: 470vh;
-  }
-
-  @media (max-width: 1300px) {
-    top: 490vh;
-    height: 84rem;
-  }
-
-  @media (max-width: 800px) {
-    top: 550vh;
+  @media (max-width: 1250px) {
+    height: 790px;
   }
 }
 
-.contactMe-Heading {
+.contact__heading {
   width: fit-content;
   height: fit-content;
 }
 
-.contactMe-Subheading {
+.contact__subheading {
   max-width: 54rem;
   max-height: 5.5rem;
   margin-top: 4rem;
@@ -31,81 +20,87 @@
   font-size: large;
 
   @media (max-width: 700px) {
-    width: auto;
   }
 }
 
-.contactMeNameHeading {
+.contact__heading__name {
   width: fit-content;
   height: fit-content;
-  top: 12rem;
+  top: 0rem;
   right: 0;
   margin-top: 0;
 
-  @media (max-width: 1300px) {
-    top: 30rem;
+  @media (max-width: 1250px) {
+    top: 200px;
+    right: auto;
   }
 }
 
-.nameInput {
+.contact__input__name {
   width: 52rem;
   height: 5rem;
-  top: 15.2rem;
+  top: 3.2rem;
   right: 0;
   border: none;
   padding-right: 10px;
   padding-left: 10px;
   background: #181823;
 
-  @media (max-width: 1300px) {
-    top: 33rem;
+  @media (max-width: 1250px) {
+    top: 232px;
+    right: auto;
+    max-width: 80%;
   }
 }
 
-.contactMeEmailHeading {
+.contact__heading__email {
   width: fit-content;
   height: fit-content;
-  top: 24.2rem;
+  top: 12.2rem;
   right: 0;
   margin-top: 0;
 
-  @media (max-width: 1300px) {
-    top: 42rem;
+  @media (max-width: 1250px) {
+    top: 322px;
+    right: auto;
   }
 }
 
-.emailInput {
+.contact__input__email {
   width: 52rem;
   height: 5rem;
-  top: 27.4rem;
+  top: 15.4rem;
   right: 0;
   border: none;
   padding-right: 10px;
   padding-left: 10px;
   background: #181823;
 
-  @media (max-width: 1300px) {
-    top: 45rem;
+  @media (max-width: 1250px) {
+    top: 354px;
+    right: auto;
+    max-width: 80%;
   }
 }
 
-.contactMeMessageHeading {
+.contact__heading__message {
   width: fit-content;
   height: fit-content;
   right: 0;
-  top: 36.4rem;
+  top: 24.4rem;
   margin-top: 0;
 
-  @media (max-width: 1300px) {
-    top: 52rem;
+  @media (max-width: 1250px) {
+    top: 444px;
+    right: auto;
   }
 }
 
-.messageInput {
+.contact__input__message {
   width: 52rem;
   height: 10rem;
   right: 0;
-  top: 39rem;
+  top: 27rem;
   padding: 10px;
   resize: none;
   overflow: auto;
@@ -117,39 +112,19 @@
     display: none;
   }
 
-  @media (max-width: 1300px) {
-    top: 55rem;
+  @media (max-width: 1250px) {
+    top: 470px;
+    right: auto;
+    max-width: 80%;
   }
 }
 
-.contactMeNameHeading,
-.contactMeEmailHeading,
-.contactMeMessageHeading,
-.nameInput,
-.emailInput,
-.messageInput,
-.contactButton {
-  right: 7.2rem;
-
-  @media (max-width: 1300px) {
-    width: auto;
-    right: 0;
-    left: 0;
-    margin-right: 7.2rem;
-    margin-left: 7.2rem;
-  }
-
-  @media (max-width: 500px) {
-    margin-right: 1.6rem;
-    margin-left: 1.6rem;
-  }
-}
-
-.contactButton {
+.contact__btn {
   text-align: center;
   height: fit-content;
-  width: 54rem;
-  top: 58rem;
+  width: 240px;
+  top: 320px;
+  margin-left: 72px;
   padding: 24px 32px;
   background-color: transparent;
   cursor: pointer;
@@ -161,9 +136,13 @@
     transform: scale(1.02);
   }
 
-  @media (max-width: 1300px) {
-    width: auto;
-    max-width: auto;
-    top: 72rem;
+  @media (max-width: 1250px) {
+    top: 660px;
+  }
+
+  @media (max-width: 750px) {
+    margin: auto;
+    left: 0;
+    right: 0;
   }
 }

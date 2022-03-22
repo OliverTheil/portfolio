@@ -46,10 +46,12 @@
   width: fit-content;
   max-height: 500px;
   height: fit-content;
+  @media (max-width: 641px) {
+    justify-content: space-around;
+  }
 }
 
 .skillset__skillbox {
-  border: 1px solid #5c26ff;
   padding: 4px 2px 2px 2px;
   display: flex;
   margin-left: 0 !important;
