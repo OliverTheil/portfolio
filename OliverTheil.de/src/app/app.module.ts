@@ -13,6 +13,8 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PathComponent } from './path/path.component';
 import { ContactComponent } from './contact/contact.component';
+import { MainComponent } from './main/main.component';
+import { MoreaboutmeComponent } from './moreaboutme/moreaboutme.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ContactComponent } from './contact/contact.component';
     AboutmeComponent,
     SkillsComponent,
     PathComponent,
-    ContactComponent
+    ContactComponent,
+    MainComponent,
+    MoreaboutmeComponent
   ],
   imports: [
     BrowserModule,
