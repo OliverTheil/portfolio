@@ -17,19 +17,6 @@ body {
 
   background: linear-gradient(#000000, #2d063d, #2b0947, #290546);
   background-size: 400% 400%;
-
-  @media (max-width: 1380px) {
-    height: 560vh;
-  }
-
-  @media (max-width: 1300px) {
-    height: 592vh;
-  }
-
-  @media (max-width: 800px) {
-    justify-content: center;
-    height: 652vh;
-  }
 }
 
 body::-webkit-scrollbar {
@@ -186,6 +173,14 @@ h3,
 //z-index
 
 .z {
+  &--minus--1 {
+    z-index: -1;
+  }
+
+  &--minus--2 {
+    z-index: -2;
+  }
+
   &--1 {
     z-index: 1;
   }
