@@ -15,6 +15,7 @@ import { PathComponent } from './path/path.component';
 import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
 import { MoreaboutmeComponent } from './moreaboutme/moreaboutme.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MoreaboutmeComponent } from './moreaboutme/moreaboutme.component';
     PathComponent,
     ContactComponent,
     MainComponent,
-    MoreaboutmeComponent
+    MoreaboutmeComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

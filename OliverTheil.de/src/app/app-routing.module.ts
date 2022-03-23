@@ -4,11 +4,13 @@ import { DataprotectionComponent } from './dataprotection/dataprotection.compone
 import { ImprintComponent } from './imprint/imprint.component';
 import { MainComponent } from './main/main.component';
 import { MoreaboutmeComponent } from './moreaboutme/moreaboutme.component';
+import { SocialComponent } from './social/social.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'imprint', component: ImprintComponent },
   { path: 'moreaboutme', component: MoreaboutmeComponent },
+  { path: 'social', component: SocialComponent },
   { path: 'dataprotection', component: DataprotectionComponent },
 ];
 
