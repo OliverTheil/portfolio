@@ -26,10 +26,12 @@
   height: 450px;
   object-fit: cover;
   border-radius: 1px;
+  @media (max-width: 1400px) {
+    opacity: 0.2;
+  }
 
   @media (max-width: 800px) {
     height: 400px;
-    opacity: 0.2;
   }
 
   @media (max-width: 450px) {
