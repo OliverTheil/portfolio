@@ -4,15 +4,27 @@
   id="contact"
   class="contact relative"
 >
-  <div>
+  <form action="https://oliver-theil.de/mail.php" method="post">
     <h2 class="contact__heading marg--lr--72">Kontaktiere mich</h2>
     <span class="contact__subheading marg--lr--72 reg--18 absolute">
       Da du mich nun näher kennen lernen konntest und ich sicherlich dein
       Interesse geweckt habe, schreib mir doch einfach.
     </span>
-    <input type="text" class="marg--lr--72 contact__input__name absolute" />
-    <input type="text" class="marg--lr--72 contact__input__email absolute" />
+    <input
+      id="name"
+      type="text"
+      name="name"
+      class="marg--lr--72 contact__input__name absolute"
+    />
+    <input
+      #email
+      type="text"
+      name="email"
+      class="marg--lr--72 contact__input__email absolute"
+    />
     <textarea
+      #message
+      name="message"
       cols="30"
       rows="4"
       class="marg--lr--72 contact__input__message absolute"
@@ -22,6 +34,6 @@
     <p class="marg--lr--72 contact__heading__message reg--16 absolute">
       Message
     </p>
-    <button class="contact__btn absolute">Bestätigen</button>
-  </div>
+    <button type="submit" class="contact__btn absolute">Bestätigen</button>
+  </form>
 </section>

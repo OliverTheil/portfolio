@@ -34,13 +34,10 @@ import { OtherprojectsComponent } from './otherprojects/otherprojects.component'
     MainComponent,
     MoreaboutmeComponent,
     SocialComponent,
-    OtherprojectsComponent
+    OtherprojectsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
