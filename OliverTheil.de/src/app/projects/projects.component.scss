@@ -33,6 +33,11 @@
 }
 
 .projects__box__text {
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   height: 180px;
   @media (max-width: 1380px) {
     height: 300px;
@@ -233,5 +238,25 @@
 
   @media (max-width: 800px) {
     top: 220rem;
+  }
+}
+
+.github__icon {
+  height: 40px;
+  object-fit: contain;
+  transition: all 0.125s ease-in-out;
+  padding-top: 6px;
+  opacity: 0.7;
+
+  &:hover {
+    color: rgb(81, 61, 205);
+    opacity: 1;
+    cursor: pointer;
+    filter: brightness(1.5);
+    transform: scale(1.2);
+  }
+
+  @media (max-width: 700px) {
+    height: 32px;
   }
 }
