@@ -6,8 +6,8 @@
         !jsClicked ? (jsClicked = true) : (jsClicked = false);
         angularClicked = false
       "
-      class="filterButton"
-      [class.neonEffect]="jsClicked"
+      class="filterButton neonEffect"
+      [class.neonActive]="jsClicked"
     >
       Javascript
     </button>
@@ -16,8 +16,8 @@
         !angularClicked ? (angularClicked = true) : (angularClicked = false);
         jsClicked = false
       "
-      class="filterButton"
-      [class.neonEffect]="angularClicked"
+      class="filterButton neonEffect"
+      [class.neonActive]="angularClicked"
     >
       Angular
     </button>
