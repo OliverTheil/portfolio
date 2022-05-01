@@ -33,11 +33,6 @@
 }
 
 .projects__box__text {
-  background: rgba(0, 0, 0, 0.35);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(0, 0, 0, 0.3);
   height: 180px;
   @media (max-width: 1380px) {
     height: 300px;
@@ -70,6 +65,7 @@
 .projects__box {
   width: 60rem;
   height: 80rem;
+  background: rgba(34, 11, 79, 0.35);
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
   transition: all 0.125s ease-in-out;
 
@@ -238,7 +234,7 @@
 .filterButton {
   margin-right: 36px;
   text-align: center;
-  min-width: 24rem;
+  min-width: 160px;
   width: fit-content;
   height: fit-content;
   padding: 24px;
@@ -248,7 +244,6 @@
   transition: all 0.125s ease-in-out;
 
   &:hover {
-    background-color: #5221e6;
     transform: scale(1.02);
   }
   @media (max-width: 600px) {
@@ -292,5 +287,22 @@
 
   @media (max-width: 700px) {
     height: 32px;
+  }
+}
+
+.highlight {
+  background-color: #35178fba;
+}
+
+.grey {
+  filter: grayscale(1);
+  transform: none !important;
+  * {
+    cursor: none;
+    &:hover {
+      cursor: none !important;
+      transform: none !important;
+      filter: none !important;
+    }
   }
 }

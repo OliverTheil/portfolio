@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss'],
 })
 export class ProjectsComponent implements OnInit {
+  jsClicked = false;
+  angularClicked = false;
   constructor() {}
 
   ngOnInit(): void {}

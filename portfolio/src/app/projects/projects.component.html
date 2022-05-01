@@ -1,11 +1,31 @@
 <section id="projects" class="projects relative">
   <h2 class="projects__heading marg--lr--72">Meine Projekte</h2>
   <div class="projects__button__container marg--lr--72">
-    <button class="filterButton neonEffect">Javascript</button>
-    <button class="filterButton neonEffect">Angular</button>
+    <button
+      (click)="
+        !jsClicked ? (jsClicked = true) : (jsClicked = false);
+        angularClicked = false
+      "
+      class="filterButton"
+      [class.neonEffect]="jsClicked"
+    >
+      Javascript
+    </button>
+    <button
+      (click)="
+        !angularClicked ? (angularClicked = true) : (angularClicked = false);
+        jsClicked = false
+      "
+      class="filterButton"
+      [class.neonEffect]="angularClicked"
+    >
+      Angular
+    </button>
   </div>
 
   <div
+    [class.highlight]="angularClicked"
+    [class.grey]="jsClicked"
     data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
     data-aos-offset="100"
@@ -37,6 +57,8 @@
     </figcaption>
   </div>
   <div
+    [class.highlight]="jsClicked"
+    [class.grey]="angularClicked"
     data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
     data-aos-offset="100"
@@ -64,6 +86,8 @@
     </figcaption>
   </div>
   <div
+    [class.highlight]="jsClicked"
+    [class.grey]="angularClicked"
     data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
     data-aos-offset="100"
@@ -91,6 +115,8 @@
     </figcaption>
   </div>
   <div
+    [class.highlight]="angularClicked"
+    [class.grey]="jsClicked"
     data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
     data-aos-offset="100"
@@ -101,8 +127,8 @@
     <figcaption class="projects__box__text relative">
       <h3 class="projects__box__heading font--white">Angular und Firebase</h3>
       <span class="projects__box__description reg--18 font--white">
-        Ring of Fire war dann mein nächstes großes Projekt bei dem ich mit
-        Angular und Firebase ein Multiplayer-Kartenspiel coden konnte.
+        Ring of Fire war dann mein nächstes großes Projekt: Ein
+        Multiplayer-Kartenspiel.
       </span>
       <div class="projects__box__icons__div absolute">
         <a href="https://github.com/OliverTheil/Ring-of-Fire" target="_blank">
