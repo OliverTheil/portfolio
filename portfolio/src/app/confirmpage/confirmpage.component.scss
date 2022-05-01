@@ -1,0 +1,13 @@
+.confirmPage {
+  height: 70vh;
+}
+
+h1 {
+  @media (max-width: 800px) {
+    margin-top: 120px;
+  }
+}
+
+p {
+  margin-top: 20px;
+}

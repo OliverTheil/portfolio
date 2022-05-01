@@ -1,0 +1,47 @@
+<section
+  data-aos="fade-right"
+  data-aos-offset="300"
+  id="contact"
+  class="contact relative"
+>
+  <form action="https://formsubmit.co/olivertheil@posteo.de" method="post">
+    <h2 class="contact__heading marg--lr--72">Kontaktiere mich</h2>
+    <span class="contact__subheading marg--lr--72 reg--18 absolute">
+      Da du mich nun näher kennen lernen konntest und ich sicherlich dein
+      Interesse geweckt habe, schreib mir doch einfach.
+    </span>
+    <input
+      type="text"
+      name="name"
+      class="marg--lr--72 contact__input__name absolute"
+      required
+    />
+    <input
+      type="text"
+      name="email"
+      class="marg--lr--72 contact__input__email absolute"
+      required
+    />
+    <textarea
+      #message
+      name="message"
+      cols="30"
+      rows="4"
+      class="marg--lr--72 contact__input__message absolute"
+      required
+    ></textarea>
+    <input
+      type="hidden"
+      name="_next"
+      value="https://oliver-theil.de/Pokedex/"
+    />
+    <p class="marg--lr--72 contact__heading__name reg--16 absolute">Name</p>
+    <p class="marg--lr--72 contact__heading__email reg--16 absolute">Email</p>
+    <p class="marg--lr--72 contact__heading__message reg--16 absolute">
+      Message
+    </p>
+    <button type="submit" class="contact__btn absolute neonEffect">
+      Bestätigen
+    </button>
+  </form>
+</section>
