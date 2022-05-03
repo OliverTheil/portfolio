@@ -6,7 +6,7 @@
         !jsClicked ? (jsClicked = true) : (jsClicked = false);
         angularClicked = false
       "
-      class="filterButton"
+      class="filterButton button--effect"
       [class.buttonActive]="jsClicked"
     >
       Javascript
@@ -16,7 +16,7 @@
         !angularClicked ? (angularClicked = true) : (angularClicked = false);
         jsClicked = false
       "
-      class="filterButton"
+      class="filterButton button--effect"
       [class.buttonActive]="angularClicked"
     >
       Angular
@@ -144,7 +144,7 @@
     </figcaption>
   </div>
   <!-- <div class="projects__other__div absolute">
-    <button routerLink="/otherprojects" class="projects__other__btn">
+    <button routerLink="/otherprojects" class="projects__other__btn button--effect">
       Andere Projekte
     </button>
   </div> -->

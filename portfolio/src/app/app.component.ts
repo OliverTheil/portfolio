@@ -11,5 +11,12 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     AOS.init();
+    this.refreshAOS();
+  }
+
+  refreshAOS() {
+    document
+      .querySelectorAll('img')
+      .forEach((img) => img.addEventListener('load', () => AOS.refresh()));
   }
 }
