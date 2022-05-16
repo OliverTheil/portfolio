@@ -40,6 +40,11 @@
   height: fit-content;
   width: fit-content;
   margin-bottom: 60px;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 .aboutMe__btn {

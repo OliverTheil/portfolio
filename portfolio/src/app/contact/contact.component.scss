@@ -1,5 +1,5 @@
 .contact {
-  height: 450px;
+  height: 600px;
   width: 100vw;
   max-width: 100%;
   @media (max-width: 1250px) {
@@ -8,7 +8,6 @@
 }
 
 .contact__heading {
-  width: fit-content;
   height: fit-content;
 }
 
@@ -18,9 +17,6 @@
   margin-top: 4rem;
   text-align: left;
   font-size: large;
-
-  @media (max-width: 700px) {
-  }
 }
 
 .contact__heading__name {
@@ -40,7 +36,7 @@
   width: 52rem;
   height: 5rem;
   top: 3.2rem;
-  right: 0;
+  right: 72px;
   border: none;
   padding-right: 10px;
   padding-left: 10px;
@@ -49,7 +45,11 @@
   @media (max-width: 1250px) {
     top: 232px;
     right: auto;
-    max-width: 80%;
+    width: calc(100% - 144px);
+  }
+
+  @media (max-width: 750px) {
+    width: calc(100% - 32px);
   }
 }
 
@@ -70,7 +70,7 @@
   width: 52rem;
   height: 5rem;
   top: 15.4rem;
-  right: 0;
+  right: 72px;
   border: none;
   padding-right: 10px;
   padding-left: 10px;
@@ -79,7 +79,11 @@
   @media (max-width: 1250px) {
     top: 354px;
     right: auto;
-    max-width: 80%;
+    width: calc(100% - 144px);
+  }
+
+  @media (max-width: 750px) {
+    width: calc(100% - 32px);
   }
 }
 
@@ -99,7 +103,7 @@
 .contact__input__message {
   width: 52rem;
   height: 10rem;
-  right: 0;
+  right: 72px;
   top: 27rem;
   padding: 10px;
   resize: none;
@@ -114,17 +118,30 @@
 
   @media (max-width: 1250px) {
     top: 470px;
-    right: auto;
-    max-width: 80%;
+    width: calc(100% - 144px);
+  }
+
+  @media (max-width: 750px) {
+    width: calc(100% - 32px);
+  }
+}
+
+@media (max-width: 1250px) {
+  .input--positionHorizontal {
+    left: 0 !important;
+    right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
 .contact__btn {
   text-align: center;
   height: fit-content;
+  right: 0;
   width: 240px;
-  top: 320px;
-  margin-left: 72px;
+  top: 440px;
+  margin-right: 72px;
   padding: 24px 32px;
   background-color: transparent;
   cursor: pointer;
@@ -137,15 +154,22 @@
   }
 
   @media (max-width: 1250px) {
+    right: auto;
+    left: 0;
     top: 660px;
+    margin-left: 72px;
   }
 
   @media (max-width: 750px) {
-    margin-left: 1.6rem;
+    margin-left: 16px;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     padding: 8px;
     width: fit-content;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

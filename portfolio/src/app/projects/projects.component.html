@@ -1,6 +1,13 @@
 <section id="projects" class="projects relative">
-  <h2 class="projects__heading marg--lr--72">Meine Projekte</h2>
+  <h2 class="projects__heading marg--lr--72 center">Meine Projekte</h2>
   <div class="projects__button__container marg--lr--72">
+    <button
+      (click)="jsClicked = false; angularClicked = false"
+      class="filterButton button--effect"
+      [class.buttonActive]="!angularClicked && !jsClicked"
+    >
+      All
+    </button>
     <button
       (click)="
         !jsClicked ? (jsClicked = true) : (jsClicked = false);
@@ -95,10 +102,10 @@
   >
     <img class="projects__box__img" src="assets/img/pokedex.png" />
     <figcaption class="projects__box__text relative">
-      <h3 class="projects__box__heading font--white">Ein Kanto-Pokedex</h3>
+      <h3 class="projects__box__heading font--white">Ein Pokedex</h3>
       <span class="projects__box__description reg--18 font--white">
-        Mit Erfahrung in Javascript und dem eintauchen in API's konnte ich nun
-        mein eigenen Pokedex erstellen.
+        Mit Er&shy;fahrung in Javascript und dem ein&shy;tauchen in API's konnte
+        ich nun mein eigenen Poke&shy;dex er&shy;stellen.
       </span>
       <div class="projects__box__icons__div absolute">
         <a href="https://github.com/OliverTheil/Pokedex" target="_blank"

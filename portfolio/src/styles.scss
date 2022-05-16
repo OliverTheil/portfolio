@@ -29,6 +29,9 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  background-color: black;
+  background: linear-gradient(#000000, #2d063d, #2b0947, #290546);
+  background-size: 400% 400%;
 }
 
 body {
@@ -37,14 +40,10 @@ body {
   max-width: 100%;
   height: fit-content;
   margin: 0;
-  background-color: black;
   * {
     font-family: "Sen", sans-serif;
     color: white;
   }
-
-  background: linear-gradient(#000000, #2d063d, #2b0947, #290546);
-  background-size: 400% 400%;
 }
 
 body::-webkit-scrollbar {
@@ -275,5 +274,17 @@ h3,
   @media (max-width: 750px) {
     margin-left: 1.6rem;
     margin-right: 1.6rem;
+  }
+}
+
+//mobile text center/justify
+
+@media (max-width: 600px) {
+  .justify {
+    text-align: justify;
+  }
+
+  .center {
+    text-align: center;
   }
 }

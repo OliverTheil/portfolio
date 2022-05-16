@@ -15,7 +15,7 @@
   width: 100vw;
   max-width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.813);
+  background-color: rgba(0, 0, 0, 0.604);
 }
 
 .path__text {
@@ -27,4 +27,7 @@
   align-items: flex-end;
   text-align: right;
   margin-bottom: 60px;
+  @media (max-width: 600px) {
+    align-items: center;
+  }
 }
