@@ -1,43 +1,131 @@
-Servus!
-Ich bin Oliver Theil.
-Ein Front end Developer aus Bayern, Deutschland.
+        Ich komme aus dem wunderschönen Augsburg in Bayern. Nach einem
+        einfachen Youtube Tutorial der Developer Akademie, wusste ich
+        sofort das dass hier viel mehr als ein Hobby sein wird. Ich versuchte
+        mein Glück, wurde in der Developer Akademie aufgenommen und begann meine
+        Weiterbildung als Front End Developer.
 
-Seit geraumer Zeit code ich verschiedenste Projekte und habe durch den Einstieg in die Softwareentwicklung Endlich Das gefunden, 
-von dem man vorher nur träumen konnte: Ein Beruf der mir wirklich Spaß macht, sich richtig anfühlt und zu mir passt. 
+        I come from the beautiful Augsburg in Bavaria. After a
+        simple Youtube tutorial of the Developer Academy, I knew immediately
+        that this will be much more than a hobby. I tried my luck, 
+        was accepted into the Developer Academy and began my further education as a
+        front-end developer.
+        _____________________
 
-Nach einem einfachen Youtube-Tutorial der Developer Akademie, wusste ich bereits nach kurzer Zeit das das hier nicht einfach nur 
-ein Job ist. Es fühlte sich nach so viel mehr an. Es war als wäre
-es immer genau das gewesen was ich schon immer tun wollte: Softwareentwicklung. Ich versuchte mein Glück, wurde in der Developer Akademie aufgenommen und begann 
-meine Weiterbildung als Front End Developer. Und damit gegann für mich auch ein zweites Leben: Nach meiner momentanen Arbeit hieß es nur noch lernen 
-und besser werden. Gleichzeitig wurde mir klar, wie blind ich durch mein damaliges Leben lief. Es gab kein Fortschritt, keine Entwicklung. 
-Ein bloßes Arbeiten, nach Hause kommen, Wiederholung, Stillstand. Aber mit dem Einstieg in die Softwareentwicklung gab es jeden Tag einen neuen Schritt
-weiter nach oben. Dennoch: Softwareentwicklung war, ist und wird nicht jeden Tag einfach sein. Auch hier gibt es viele Fehler und Rückschläge. 
-Aber aus jedem Schritt zurück, lernt man wie es zwei Schritte vorwärts geht. Coden ist Arbeit und eine Lebenseinstellung. 
+        Ich werde schnellstmöglich auf deine Nachricht antworten.
 
-Mein Start:
+        I will reply to your message as soon as possible.
 
-Mit 10 Jahren bekam ich meinen ersten Computer und hatte nur eines: Angst. Ich wusste überhaupt nicht wie dieses Ding funktioniert und 
-war froh, wenn eines der Spiele aus den Computer-Zeitschriften startete. Über Monate und Jahre hinweg habe 
-ich mir Wissen angeeignet und wurde mit der Zeit immer sicherer. Der Computer wurde mein zweites Zuhause und ein Rückzugsort in unzähligen Welten. 
-Mit den Jahren interessierte mich vor allem Computer Hardware und begann mit 16 Jahren meinen ersten Computer selbst zu bauen. Es dauerte Stunden und 
-funktionierte natürlich nicht. Aber nach weiteren Stunden Arbeit und Fehlersuche startete er. Damit begann für mich ein weiterer Schritt in die Welt der 
-Einsen und Nullen. Über die Jahre baute ich unzählige Systeme und sammelte Erfahrung in Softwareoptimierung, Übertakten und Spannungsregulierung bei Computern. 
+        _____________________
 
-Ein absoluter Nerd:
+              Da du mich nun näher kennen lernen konntest und ich
+      sicherlich dein Interesse geweckt habe, schreib mir doch
+      einfach.
 
-Natürlich bin ich leidenschaftlicher Gamer und spiele nicht nur gerne sondern auch viel. Am besten auch noch die, die einen fordern, wie z.B. Dark Souls oder 
-Sekiro. Aber (J)RPG's dürfen natürlich auch nicht fehlen: Von Skyrim zu Fallout hin zu Nier Automata oder The Witcher spiele ich alles was mir Spaß macht
-und mich für ein paar Stunden/Tage/Wochen... in eine andere Welt zieht. 
+      Now that you could get to know me better and I have
+      surely aroused your interest, just write me.
 
-Es wird noch schlimmer...
-Denn was wäre ich ohne meinen 3D-Resin-Drucker? Ein weiteres Hobby ist das Drucken und Bemalen von Figuren. Dabei kann man das ganze schon fast mit Coden 
-vergleichen: Die Zeit vergeht wie im Fluge und ein kleiner Fehler kann Stunden Arbeit kosten. Steht eine Figur fertig an der Wand, könnte man stolzer nicht sein.
+      ________________________
 
+            Seit geraumer Zeit code ich verschiedenste Projekte und
+      habe durch den Einstieg in die Softwareentwicklung endlich
+      das gefunden, mit dem ich mich selbst verwirklichen kann.
 
-Meine bisherigen Projekte und Erfahrungen:
-Egal welches Projekt ich code, Leidenschaft und Spaß ist immer an erster Stelle. Ob beim Start von einfachen Seiten mit HTML und CSS oder der 
-Einbindung von JavaScript und APIs. 
+      For quite some time now I have been coding various projects and
+      and by entering the field of software development I finally found 
+      something with which I can realize myself.
 
+      ________________________
 
+        Mein Leben kannte nie einen klaren Weg. Schon in meiner Ausbildung
+        zum Fluggerätmechaniker war mir immer klar, das dies nur ein
+        Übergang ist. Das mein Herz für etwas ganz anderes schlägt. Mit dem
+        Einstieg in die Softwareentwicklung, begann sich endlich
+        ein Weg zu öffnen, den ich zuvor nicht finden konnte. Ein Bereich der
+        mir wirklich alles bedeutet. Ich sehe mich genau in diesem
+        Berufsweg und beginne direkt nach meinem Frontendkurs mit
+        Backend.
 
+        My life never knew a clear path. Even during my training
+        as an aircraft mechanic, it was always clear to me that this was only a transition.
+        That my heart beats for something completely different. With 
+        software development, a path finally opened up that
+         I had not been able to find before. An area that
+        means everything to me. I see myself exactly on this
+        career path and start directly after my front-end course with
+        back-end.
 
+_______________________________________________
+
+        Willie - Eine intelligente Lernapp
+
+        willie - An intelligent learning app
+
+        Mit Willie können sich Nutzer ihren individuellen Lernplan erstellen
+        lassen.
+
+        With Willie, users can create their own individual learning plan. 
+
+        ____________________________
+
+        Eine Restaurant Seite
+
+        A restaurant site
+
+        Auf Food4U trifft Design mit Funktion zusammen.
+
+        At Food4U, design meets function
+
+        ____________________________________
+
+                Mit Erfahrung in Javascript und dem eintauchen in API's konnte
+        ich nun mein eigenen Pokedex erstellen.
+
+        With experience in Javascript and the immersion into API's I could
+        create my own Pokedex.
+
+        _________________________
+
+        Ring of Fire war dann mein nächstes großes Projekt: Ein
+        Multiplayer-Kartenspiel.
+
+        Ring of Fire was then my next big project: 
+        a multiplayer card game.
+
+        _______________________
+
+        Durch el pollo loco erschuf ich mein erstes Spiel mit Javascript und
+        lernte Objektorientierte Programmierung im Canvas kennen.
+
+        Through el pollo loco I created my first game with javascript and
+        learned the object-oriented programming in Canvas.
+
+        _______________________
+
+              Egal welches Projekt ich code, Leidenschaft und Spaß ist immer an
+      erster Stelle. Ob beim Start von einfachen Seiten mit HTML und CSS, den
+      ersten Zeilen in JavaScript oder komplexen Seiten mit Angular und
+      Firebase.
+
+      Doch auch abseits der Softwareentwicklung habe ich viele
+      Erfahrungen gesammelt, die unterschiedlicher nicht sein
+      könnten. Ob im Soft-/Hardwarebereich, beim Erstellen von custom
+      PC-Builds, oder Optimierung, Übertakten und Spannungsregulierung bei
+      Computern.
+      Durch meine jahrelange Erfahrung in den verschiedensten
+      Bereichen kann ich zu jedem Projekt andere Blickwinkel
+      einbringen und mit unterschiedlichen Teams auch jedes Ziel gemeinsam erreichen.
+
+      No matter what project I code, passion and fun are always in
+      the first place. Whether starting simple pages with HTML and CSS, the
+      first lines in JavaScript, or complex pages with Angular and
+      Firebase.
+
+      But also away from software development, I have gathered many
+      experiences that could not be more different.
+      Whether in the software/hardware area, in the creation of custom
+      PC builds, or optimization, overclocking, and voltage regulation for
+      computers.
+
+      Through my years of experience in a wide variety of
+      I can bring different perspectives to every project and
+      and achieve every goal together with different teams.
