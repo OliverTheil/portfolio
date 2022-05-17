@@ -316,9 +316,7 @@
   filter: grayscale(1);
   transform: none !important;
   * {
-    cursor: none;
     &:hover {
-      cursor: none !important;
       transform: none !important;
       filter: none !important;
     }
