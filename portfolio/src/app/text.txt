@@ -101,7 +101,7 @@ _______________________________________________
 
         _______________________
 
-              Egal welches Projekt ich code, Leidenschaft und Spaß ist immer an
+    Egal welches Projekt ich code, Leidenschaft und Spaß ist immer an
       erster Stelle. Ob beim Start von einfachen Seiten mit HTML und CSS, den
       ersten Zeilen in JavaScript oder komplexen Seiten mit Angular und
       Firebase.

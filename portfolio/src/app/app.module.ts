@@ -14,9 +14,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { PathComponent } from './path/path.component';
 import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
-import { MoreaboutmeComponent } from './moreaboutme/moreaboutme.component';
 import { SocialComponent } from './social/social.component';
-import { OtherprojectsComponent } from './otherprojects/otherprojects.component';
 import { ConfirmpageComponent } from './confirmpage/confirmpage.component';
 
 @NgModule({
@@ -33,9 +31,7 @@ import { ConfirmpageComponent } from './confirmpage/confirmpage.component';
     PathComponent,
     ContactComponent,
     MainComponent,
-    MoreaboutmeComponent,
     SocialComponent,
-    OtherprojectsComponent,
     ConfirmpageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],

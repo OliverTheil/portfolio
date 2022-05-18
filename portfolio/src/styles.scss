@@ -209,6 +209,11 @@ h3,
   &--white {
     color: white;
   }
+
+  &--purple {
+    color: #5221e6;
+    width: fit-content;
+  }
 }
 
 //z-index
@@ -277,11 +282,12 @@ h3,
   }
 }
 
-//mobile text center/justify
+//mobile text center/textAlign--left
 
 @media (max-width: 600px) {
-  .justify {
-    text-align: justify;
+  .textAlign--left {
+    text-align: left;
+    hyphens: auto;
   }
 
   .center {
