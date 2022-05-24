@@ -43,7 +43,7 @@
 
   @media (max-width: 600px) {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 
@@ -61,7 +61,7 @@
     background-color: #5221e6;
     transform: scale(1.05);
   }
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     padding: 8px;
     min-width: 140px;
   }

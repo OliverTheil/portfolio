@@ -153,8 +153,6 @@
   top: 260px;
 
   @media (max-width: 1380px) {
-    left: 72px;
-    right: auto;
     top: 620px;
   }
 
@@ -247,6 +245,10 @@
   justify-content: center;
   @media (max-width: 600px) {
     width: calc(100% - 32px);
+    justify-content: flex-start;
+    * {
+      margin-right: 10px;
+    }
   }
 }
 
@@ -301,10 +303,6 @@
     cursor: pointer;
     filter: brightness(1.5);
     transform: scale(1.2);
-  }
-
-  @media (max-width: 700px) {
-    height: 32px;
   }
 }
 

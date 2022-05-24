@@ -14,8 +14,10 @@
     transform: scale(1.05);
   }
 
-  @media (max-width: 550px) {
-    margin: 16px 16px 16px 16px;
+  @media (max-width: 600px) {
+    margin: 16px 16px 16px 0px;
+    padding: 8px;
+    min-width: 140px;
   }
 }
 
@@ -25,8 +27,8 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  @media (max-width: 550px) {
-    justify-content: center;
+  @media (max-width: 600px) {
+    justify-content: flex-start;
   }
 }
 
