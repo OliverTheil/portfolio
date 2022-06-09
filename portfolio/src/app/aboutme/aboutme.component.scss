@@ -8,10 +8,13 @@
 }
 
 .aboutMe__img {
-  opacity: 0.6;
-  width: 750px;
+  opacity: 0.8;
+  width: 900px;
   height: 600px;
   right: 0;
+  @media (max-width: 750px) {
+    opacity: 0.4;
+  }
 }
 
 .aboutMe__text {
