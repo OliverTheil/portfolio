@@ -5,6 +5,9 @@
   @media (max-width: 1360px) {
     height: 790px;
   }
+  @media (max-width: 600px) {
+    height: 720px;
+  }
 }
 
 .form {
@@ -55,11 +58,11 @@
   @media (max-width: 1360px) {
     top: 232px;
     right: auto;
-    width: calc(100% - 298px);
+    width: calc(100% - 308px);
   }
 
   @media (max-width: 750px) {
-    width: calc(100% - 74px);
+    width: calc(100% - 84px);
   }
 }
 
@@ -89,11 +92,11 @@
   @media (max-width: 1360px) {
     top: 354px;
     right: auto;
-    width: calc(100% - 298px);
+    width: calc(100% - 308px);
   }
 
   @media (max-width: 750px) {
-    width: calc(100% - 74px);
+    width: calc(100% - 84px);
   }
 }
 
@@ -127,12 +130,12 @@
   }
 
   @media (max-width: 1360px) {
-    top: 470px;
-    width: calc(100% - 298px);
+    top: 480px;
+    width: calc(100% - 308px);
   }
 
   @media (max-width: 750px) {
-    width: calc(100% - 74px);
+    width: calc(100% - 84px);
   }
 }
 
@@ -179,5 +182,6 @@
     width: fit-content;
     left: 0;
     right: auto;
+    top: 640px;
   }
 }
