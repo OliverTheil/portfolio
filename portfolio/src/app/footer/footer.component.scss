@@ -7,7 +7,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   background-color: #181823;
-  @media (max-width: 520px) {
+  @media (max-width: 560px) {
     justify-content: center;
   }
 }
@@ -34,17 +34,19 @@ footer {
 
 .footer__link {
   padding: 1.6rem;
+  width: fit-content;
+  height: fit-content;
 }
 
 .footer__allIcons {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-left: 56px;
+  margin-left: 136px;
 
   @media (max-width: 750px) {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 32px;
+    margin-right: 32px;
   }
 }
 
@@ -52,11 +54,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-right: 56px;
+  margin-right: 136px;
 
   @media (max-width: 750px) {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 32px;
+    margin-right: 32px;
   }
 }
 
