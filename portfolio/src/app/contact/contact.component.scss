@@ -7,6 +7,16 @@
   }
 }
 
+.form {
+  position: relative;
+  @media (min-width: 1920px) {
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  height: fit-content;
+}
+
 .contact__heading {
   height: fit-content;
 }
@@ -91,7 +101,7 @@
   width: fit-content;
   height: fit-content;
   right: 0;
-  top: 24.4rem;
+  top: 244px;
   margin-top: 0;
 
   @media (max-width: 1360px) {
@@ -101,10 +111,10 @@
 }
 
 .contact__input__message {
-  width: 52rem;
-  height: 10rem;
+  width: 520px;
+  height: 100px;
   right: 144px;
-  top: 27rem;
+  top: 272px;
   padding: 10px;
   resize: none;
   overflow: auto;

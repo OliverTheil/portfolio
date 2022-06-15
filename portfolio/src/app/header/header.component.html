@@ -1,53 +1,55 @@
-<img class="navbar__logo z--5" src="/assets/logos/portfoliologo.png" />
-<button
-  (click)="openMenu()"
-  [class.navbar__button--turn]="iconHovered"
-  class="header__menu__button z--4"
->
-  <i
-    [class.navbar__icon--effect]="iconHovered"
-    class="fa-solid fa-arrow-right-from-bracket fa-2x navbar__arrow"
-  ></i>
-</button>
-<header>
-  <nav class="navbar__desktop z--4">
-    <a href="#headpage">Home</a>
-    <a href="#aboutMe">About me</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <nav [class.show]="iconHovered" class="navbar__mobile z--5 fixed">
-    <a (mouseover)="showText()" (click)="openMenu()" href="#headpage"
-      ><i class="fa-solid navbar__icon fa-house fa-3x"></i
-    ></a>
-    <a (mouseover)="showText()" (click)="openMenu()" href="#aboutMe"
-      ><i class="fa-solid navbar__icon fa-user fa-3x"></i
-    ></a>
-    <a (mouseover)="showText()" (click)="openMenu()" href="#skills"
-      ><i class="fa-solid navbar__icon fa-clipboard-list fa-3x"></i
-    ></a>
-    <a (mouseover)="showText()" (click)="openMenu()" href="#projects"
-      ><i class="fa-solid navbar__icon fa-boxes-stacked fa-3x"></i
-    ></a>
-    <a (mouseover)="showText()" (click)="openMenu()" href="#contact"
-      ><i class="fa-solid navbar__icon fa-address-card fa-3x"></i
-    ></a>
-    <a (mouseover)="showText()" (click)="openMenu()" href="#contact"
-      ><i class="fa-solid navbar__icon fa-square-caret-down fa-3x"></i
-    ></a>
-  </nav>
-  <div
-    [class.show]="activeText"
-    [class.navbar--change]="iconHovered"
-    id="mobileText"
-    class="navbar__mobile__text fixed z--4"
-  >
-    <a (click)="openMenu()" href="#headpage">Home</a>
-    <a (click)="openMenu()" href="#aboutMe">About me</a>
-    <a (click)="openMenu()" href="#skills">Skills</a>
-    <a (click)="openMenu()" href="#projects">Projects</a>
-    <a (click)="openMenu()" href="#contact">Contact</a>
-    <a (click)="openMenu()" href="#contact">Links & info</a>
-  </div>
-</header>
+<section class="header__container">
+  <header class="header--maxWidth">
+    <img class="navbar__logo z--5" src="/assets/logos/portfoliologo.png" />
+    <button
+      (click)="openMenu()"
+      [class.navbar__button--turn]="iconHovered"
+      class="header__menu__button z--4"
+    >
+      <i
+        [class.navbar__icon--effect]="iconHovered"
+        class="fa-solid fa-arrow-right-from-bracket fa-2x navbar__arrow"
+      ></i>
+    </button>
+    <nav class="navbar__desktop z--4">
+      <a href="#headpage">Home</a>
+      <a href="#aboutMe">About me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <nav [class.show]="iconHovered" class="navbar__mobile z--5 fixed">
+      <a (mouseover)="showText()" (click)="openMenu()" href="#headpage"
+        ><i class="fa-solid navbar__icon fa-house fa-3x"></i
+      ></a>
+      <a (mouseover)="showText()" (click)="openMenu()" href="#aboutMe"
+        ><i class="fa-solid navbar__icon fa-user fa-3x"></i
+      ></a>
+      <a (mouseover)="showText()" (click)="openMenu()" href="#skills"
+        ><i class="fa-solid navbar__icon fa-clipboard-list fa-3x"></i
+      ></a>
+      <a (mouseover)="showText()" (click)="openMenu()" href="#projects"
+        ><i class="fa-solid navbar__icon fa-boxes-stacked fa-3x"></i
+      ></a>
+      <a (mouseover)="showText()" (click)="openMenu()" href="#contact"
+        ><i class="fa-solid navbar__icon fa-address-card fa-3x"></i
+      ></a>
+      <a (mouseover)="showText()" (click)="openMenu()" href="#contact"
+        ><i class="fa-solid navbar__icon fa-square-caret-down fa-3x"></i
+      ></a>
+    </nav>
+    <div
+      [class.show]="activeText"
+      [class.navbar--change]="iconHovered"
+      id="mobileText"
+      class="navbar__mobile__text fixed z--4"
+    >
+      <a (click)="openMenu()" href="#headpage">Home</a>
+      <a (click)="openMenu()" href="#aboutMe">About me</a>
+      <a (click)="openMenu()" href="#skills">Skills</a>
+      <a (click)="openMenu()" href="#projects">Projects</a>
+      <a (click)="openMenu()" href="#contact">Contact</a>
+      <a (click)="openMenu()" href="#contact">Links & info</a>
+    </div>
+  </header>
+</section>

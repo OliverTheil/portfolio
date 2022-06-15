@@ -35,8 +35,7 @@ html {
 }
 
 body {
-  width: 100%;
-  max-width: 1920px;
+  width: 100vw;
   max-width: 100%;
   height: fit-content;
   margin: 0;
@@ -47,7 +46,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.4rem;
+  width: 6px;
 }
 
 body::-webkit-scrollbar-track {

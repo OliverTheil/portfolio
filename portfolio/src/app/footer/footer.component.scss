@@ -6,10 +6,21 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #181823;
+
   @media (max-width: 560px) {
     justify-content: center;
   }
+  @media (min-width: 1920px) {
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.footer__container {
+  width: 100vw;
+  max-width: 100%;
+  background-color: #181823;
 }
 
 .footer__icon {

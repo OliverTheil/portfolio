@@ -5,6 +5,10 @@
   height: fit-content;
   display: flex;
   flex-direction: column;
+  @media (min-width: 1920px) {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .skillset__text {
@@ -12,6 +16,7 @@
   flex-direction: column;
   height: fit-content;
   width: fit-content;
+  max-width: 1632px;
 }
 
 .skillset__icon {

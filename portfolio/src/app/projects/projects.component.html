@@ -1,181 +1,183 @@
-<section id="projects" class="projects relative">
-  <h2 class="projects__heading marg--lr--72 textAlign--left">
-    My <b class="font--purple">projects</b>
-  </h2>
-  <div class="projects__button__container marg--lr--72">
-    <button
-      (click)="jsClicked = false; angularClicked = false"
-      class="filterButton button--effect"
-      [class.buttonActive]="!angularClicked && !jsClicked"
-    >
-      All
-    </button>
-    <button
-      (click)="
-        !jsClicked ? (jsClicked = true) : (jsClicked = false);
-        angularClicked = false
-      "
-      class="filterButton button--effect"
-      [class.buttonActive]="jsClicked"
-    >
-      Javascript
-    </button>
-    <button
-      (click)="
-        !angularClicked ? (angularClicked = true) : (angularClicked = false);
-        jsClicked = false
-      "
-      class="filterButton button--effect"
-      [class.buttonActive]="angularClicked"
-    >
-      Angular
-    </button>
-  </div>
+<div class="projects__container">
+  <section id="projects" class="projects relative">
+    <h2 class="projects__heading marg--lr--72 textAlign--left">
+      My <b class="font--purple">projects</b>
+    </h2>
+    <div class="projects__button__container marg--lr--72">
+      <button
+        (click)="jsClicked = false; angularClicked = false"
+        class="filterButton button--effect"
+        [class.buttonActive]="!angularClicked && !jsClicked"
+      >
+        All
+      </button>
+      <button
+        (click)="
+          !jsClicked ? (jsClicked = true) : (jsClicked = false);
+          angularClicked = false
+        "
+        class="filterButton button--effect"
+        [class.buttonActive]="jsClicked"
+      >
+        Javascript
+      </button>
+      <button
+        (click)="
+          !angularClicked ? (angularClicked = true) : (angularClicked = false);
+          jsClicked = false
+        "
+        class="filterButton button--effect"
+        [class.buttonActive]="angularClicked"
+      >
+        Angular
+      </button>
+    </div>
 
-  <div
-    [class.highlight]="angularClicked"
-    [class.grey]="jsClicked"
-    data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-offset="100"
-    data-aos-duration="1000"
-    class="projects__box turn bgc--black absolute left--1"
-  >
-    <img class="projects__box__img" src="/assets/img/willie.png" />
-    <figcaption class="projects__box__text relative">
-      <h3 class="projects__box__heading font--white">
-        Willie - An intelligent learning app
-      </h3>
-      <span class="projects__box__description reg--18 font--white">
-        With the use of Angular in Willie, users can create their own individual
-        learning plan
-      </span>
-      <div class="projects__box__icons__div absolute">
-        <a href="https://github.com/OliverTheil/willie" target="_blank"
-          ><i
-            src="/assets/icons/github.png"
-            class="fa-brands fa-github fa-3x github__icon"
-          ></i>
-        </a>
-        <a href="https://oliver-theil.de/willie-learnsmart" target="_blank"
-          ><img class="projects__box__icons" src="/assets/icons/arrow.png"
-        /></a>
-      </div>
-    </figcaption>
-  </div>
-  <div
-    [class.highlight]="angularClicked"
-    [class.grey]="jsClicked"
-    data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-offset="100"
-    data-aos-duration="1000"
-    class="projects__box bgc--black change absolute right--1"
-  >
-    <img class="projects__box__img" src="assets/img/foodforu.png" />
-    <figcaption class="projects__box__text relative">
-      <h3 class="projects__box__heading font--white">A restaurant site</h3>
-      <span class="projects__box__description reg--18 font--white">
-        At Food4U, SCSS meets Angular. Users can order food and use their
-        discount code.
-      </span>
-      <div class="projects__box__icons__div absolute">
-        <a href="https://github.com/OliverTheil/foodforu" target="_blank"
-          ><i
-            src="/assets/icons/github.png"
-            class="fa-brands fa-github fa-3x github__icon"
-          ></i>
-        </a>
-        <a href="https://oliver-theil.de/foodforu" target="_blank"
-          ><img class="projects__box__icons" src="/assets/icons/arrow.png"
-        /></a>
-      </div>
-    </figcaption>
-  </div>
-  <div
-    [class.highlight]="jsClicked"
-    [class.grey]="angularClicked"
-    data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-offset="100"
-    data-aos-duration="1000"
-    class="projects__box turn bgc--black absolute left--2"
-  >
-    <img class="projects__box__img" src="assets/img/pokedex.png" />
-    <figcaption class="projects__box__text relative">
-      <h3 class="projects__box__heading font--white">A Pokedex</h3>
-      <span class="projects__box__description reg--18 font--white">
-        With experience in Javascript and the use of API's I could create my own
-        Pokedex
-      </span>
-      <div class="projects__box__icons__div absolute">
-        <a href="https://github.com/OliverTheil/Pokedex" target="_blank"
-          ><i
-            src="/assets/icons/github.png"
-            class="fa-brands fa-github fa-3x github__icon"
-          ></i>
-        </a>
-        <a href="https://oliver-theil.de/pokedex/" target="_blank"
-          ><img class="projects__box__icons" src="/assets/icons/arrow.png"
-        /></a>
-      </div>
-    </figcaption>
-  </div>
-  <div
-    [class.highlight]="angularClicked"
-    [class.grey]="jsClicked"
-    data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-offset="100"
-    data-aos-duration="1000"
-    class="projects__box bgc--black change absolute right--2"
-  >
-    <img class="projects__box__img" src="assets/img/cards.jpg" />
-    <figcaption class="projects__box__text relative">
-      <h3 class="projects__box__heading font--white">Ring of Fire</h3>
-      <span class="projects__box__description reg--18 font--white">
-        A multiplayer card game consisting of Angular and Firebase. You can play
-        together by sharing the link
-      </span>
-      <div class="projects__box__icons__div absolute">
-        <a href="https://github.com/OliverTheil/Ring-of-Fire" target="_blank">
-          <i
-            src="/assets/icons/github.png"
-            class="fa-brands fa-github fa-3x github__icon"
-          ></i>
-        </a>
-        <a href="https://ring-of-fire-6ae18.firebaseapp.com/" target="_blank"
-          ><img class="projects__box__icons" src="/assets/icons/arrow.png"
-        /></a>
-      </div>
-    </figcaption>
-  </div>
-  <div
-    [class.highlight]="jsClicked"
-    [class.grey]="angularClicked"
-    data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-offset="100"
-    data-aos-duration="1000"
-    class="projects__box turn bgc--black absolute left--3"
-  >
-    <img class="projects__box__img" src="assets/img/elpolloloco.png" />
-    <figcaption class="projects__box__text relative">
-      <h3 class="projects__box__heading font--white">El pollo loco</h3>
-      <span class="projects__box__description reg--18 font--white">
-        Through el pollo loco I created my first game with Javascript and OOP
-      </span>
-      <div class="projects__box__icons__div absolute">
-        <a href="https://github.com/OliverTheil/ElpolloLoco" target="_blank"
-          ><i
-            src="/assets/icons/github.png"
-            class="fa-brands fa-github fa-3x github__icon"
-          ></i>
-        </a>
-        <a href="https://oliver-theil.de/elpolloLoco/" target="_blank"
-          ><img class="projects__box__icons" src="/assets/icons/arrow.png"
-        /></a>
-      </div>
-    </figcaption>
-  </div>
-</section>
+    <div
+      [class.highlight]="angularClicked"
+      [class.grey]="jsClicked"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-offset="100"
+      data-aos-duration="1000"
+      class="projects__box turn bgc--black absolute left--1"
+    >
+      <img class="projects__box__img" src="/assets/img/willie.png" />
+      <figcaption class="projects__box__text relative">
+        <h3 class="projects__box__heading font--white">
+          Willie - An intelligent learning app
+        </h3>
+        <span class="projects__box__description reg--18 font--white">
+          With the use of Angular in Willie, users can create their own
+          individual learning plan
+        </span>
+        <div class="projects__box__icons__div absolute">
+          <a href="https://github.com/OliverTheil/willie" target="_blank"
+            ><i
+              src="/assets/icons/github.png"
+              class="fa-brands fa-github fa-3x github__icon"
+            ></i>
+          </a>
+          <a href="https://oliver-theil.de/willie-learnsmart" target="_blank"
+            ><img class="projects__box__icons" src="/assets/icons/arrow.png"
+          /></a>
+        </div>
+      </figcaption>
+    </div>
+    <div
+      [class.highlight]="angularClicked"
+      [class.grey]="jsClicked"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-offset="100"
+      data-aos-duration="1000"
+      class="projects__box bgc--black change absolute right--1"
+    >
+      <img class="projects__box__img" src="assets/img/foodforu.png" />
+      <figcaption class="projects__box__text relative">
+        <h3 class="projects__box__heading font--white">A restaurant site</h3>
+        <span class="projects__box__description reg--18 font--white">
+          At Food4U, SCSS meets Angular. Users can order food and use their
+          discount code.
+        </span>
+        <div class="projects__box__icons__div absolute">
+          <a href="https://github.com/OliverTheil/foodforu" target="_blank"
+            ><i
+              src="/assets/icons/github.png"
+              class="fa-brands fa-github fa-3x github__icon"
+            ></i>
+          </a>
+          <a href="https://oliver-theil.de/foodforu" target="_blank"
+            ><img class="projects__box__icons" src="/assets/icons/arrow.png"
+          /></a>
+        </div>
+      </figcaption>
+    </div>
+    <div
+      [class.highlight]="jsClicked"
+      [class.grey]="angularClicked"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-offset="100"
+      data-aos-duration="1000"
+      class="projects__box turn bgc--black absolute left--2"
+    >
+      <img class="projects__box__img" src="assets/img/pokedex.png" />
+      <figcaption class="projects__box__text relative">
+        <h3 class="projects__box__heading font--white">A Pokedex</h3>
+        <span class="projects__box__description reg--18 font--white">
+          With experience in Javascript and the use of API's I could create my
+          own Pokedex
+        </span>
+        <div class="projects__box__icons__div absolute">
+          <a href="https://github.com/OliverTheil/Pokedex" target="_blank"
+            ><i
+              src="/assets/icons/github.png"
+              class="fa-brands fa-github fa-3x github__icon"
+            ></i>
+          </a>
+          <a href="https://oliver-theil.de/pokedex/" target="_blank"
+            ><img class="projects__box__icons" src="/assets/icons/arrow.png"
+          /></a>
+        </div>
+      </figcaption>
+    </div>
+    <div
+      [class.highlight]="angularClicked"
+      [class.grey]="jsClicked"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-offset="100"
+      data-aos-duration="1000"
+      class="projects__box bgc--black change absolute right--2"
+    >
+      <img class="projects__box__img" src="assets/img/cards.jpg" />
+      <figcaption class="projects__box__text relative">
+        <h3 class="projects__box__heading font--white">Ring of Fire</h3>
+        <span class="projects__box__description reg--18 font--white">
+          A multiplayer card game consisting of Angular and Firebase. You can
+          play together by sharing the link
+        </span>
+        <div class="projects__box__icons__div absolute">
+          <a href="https://github.com/OliverTheil/Ring-of-Fire" target="_blank">
+            <i
+              src="/assets/icons/github.png"
+              class="fa-brands fa-github fa-3x github__icon"
+            ></i>
+          </a>
+          <a href="https://ring-of-fire-6ae18.firebaseapp.com/" target="_blank"
+            ><img class="projects__box__icons" src="/assets/icons/arrow.png"
+          /></a>
+        </div>
+      </figcaption>
+    </div>
+    <div
+      [class.highlight]="jsClicked"
+      [class.grey]="angularClicked"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-offset="100"
+      data-aos-duration="1000"
+      class="projects__box turn bgc--black absolute left--3"
+    >
+      <img class="projects__box__img" src="assets/img/elpolloloco.png" />
+      <figcaption class="projects__box__text relative">
+        <h3 class="projects__box__heading font--white">El pollo loco</h3>
+        <span class="projects__box__description reg--18 font--white">
+          Through el pollo loco I created my first game with Javascript and OOP
+        </span>
+        <div class="projects__box__icons__div absolute">
+          <a href="https://github.com/OliverTheil/ElpolloLoco" target="_blank"
+            ><i
+              src="/assets/icons/github.png"
+              class="fa-brands fa-github fa-3x github__icon"
+            ></i>
+          </a>
+          <a href="https://oliver-theil.de/elpolloLoco/" target="_blank"
+            ><img class="projects__box__icons" src="/assets/icons/arrow.png"
+          /></a>
+        </div>
+      </figcaption>
+    </div>
+  </section>
+</div>
