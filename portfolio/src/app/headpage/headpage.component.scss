@@ -57,10 +57,11 @@
 }
 
 .box {
-  top: 88;
+  top: 0;
   right: 0;
   width: 1200px;
   height: 100vh;
+  max-height: 1000px;
   @media (min-width: 1920px) {
     width: 75%;
   }

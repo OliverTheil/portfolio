@@ -4,8 +4,7 @@ h3 {
 
 .imprint {
   width: fit-content;
-  min-height: 700px;
-  height: fit-content;
+  height: calc(100vh - 300px);
   @media (max-width: 800px) {
     margin-top: 120px;
   }
