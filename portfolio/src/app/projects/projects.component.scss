@@ -8,7 +8,7 @@
 .projects {
   width: 100vw;
   max-width: 100%;
-  height: 2680px;
+  height: 1700px;
   @media (min-width: 1920px) {
     width: 1920px;
     margin-left: auto;
@@ -16,11 +16,11 @@
   }
 
   @media (max-width: 1500px) {
-    height: 1880px;
+    height: 1600px;
   }
 
   @media (max-width: 800px) {
-    height: 2900px;
+    height: 2440px;
   }
 }
 
@@ -82,8 +82,8 @@
 }
 
 .projects__box {
-  width: 60rem;
-  height: 80rem;
+  width: 400px;
+  height: 600px;
   background: rgba(34, 11, 79, 0.35);
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
   transition: all 0.125s ease-in-out;
@@ -131,8 +131,8 @@
 
 .projects__box__img {
   object-fit: cover;
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
 
   @media (max-width: 1500px) {
     max-width: 240px;
@@ -186,7 +186,7 @@
 
 .left--2 {
   right: 144px;
-  top: 940px;
+  top: 820px;
 
   @media (max-width: 1500px) {
     left: auto;
@@ -205,7 +205,7 @@
 
 .right--2 {
   left: 144px;
-  top: 1100px;
+  top: 980px;
 
   @media (max-width: 1500px) {
     top: 1180px;
@@ -222,7 +222,7 @@
 
 .left--3 {
   right: 144px;
-  top: 1780px;
+  top: 1700px;
 
   @media (max-width: 1500px) {
     left: auto;
