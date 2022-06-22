@@ -144,13 +144,11 @@ button {
 .button--effect {
   &:hover {
     background-color: #5221e6;
-    box-shadow: 0 0 10px #5921f3, 0 0 20px #7c21f3, 0 0 30px #4f21f3;
   }
 }
 
 .buttonActive {
   background-color: #5221e6;
-  box-shadow: 0 0 10px #5921f3, 0 0 20px #7c21f3, 0 0 30px #4f21f3;
 }
 
 h1,
